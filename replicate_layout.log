@@ -1,0 +1,59 @@
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.14 (main, Feb 13 2023, 04:48:26) [MSC v.1934 64 bit (AMD64)]'
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.1
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x0000023037F24E50>
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with IC1 as a reference
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'IC1'
+Located on: ['poweramp']
+With filenames: ['poweramp.kicad_sch']
+With sheet_id:['poweramp']
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('IC1', ['poweramp']), ('IC2', ['poweramp1'])]
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'poweramp', file:'poweramp.kicad_sch'
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['poweramp1']]
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['poweramp']
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1840, 109)
+02-16 11:46:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1401, 109)
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'poweramp', file:'poweramp.kicad_sch'
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['poweramp1']]
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['poweramp1']]
+on level: ['poweramp']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+02-16 11:46:41 root 332:updating GUI message: 'Preparing for replication'
+02-16 11:46:41 root 337:updating GUI with: 0
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+02-16 11:46:41 root 337:updating GUI with: 50
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+02-16 11:46:41 root 332:updating GUI message: 'Replicating footprints'
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['poweramp1']
+02-16 11:46:41 root 337:updating GUI with: 2
+02-16 11:46:41 root 337:updating GUI with: 48
+02-16 11:46:41 root 337:updating GUI with: 79
+02-16 11:46:41 root 332:updating GUI message: 'Replicating tracks'
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['poweramp1']
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['poweramp1'] :[('Net-(C34-Pad1)', 'Net-(C68-Pad1)'), ('Net-(IC1-15_C_START)', 'Net-(IC2-15_C_START)'), ('/poweramp/osc-', '/poweramp/osc-'), ('Net-(C33-Pad1)', 'Net-(C67-Pad1)'), ('/poweramp/in2', '/poweramp1/in2'), ('Net-(IC1-22GVDD_CD)', 'Net-(IC2-22GVDD_CD)'), ('/12V', '/12V'), ('Net-(LED1-A)', 'Net-(LED4-A)'), ('/poweramp/in_d', '/poweramp1/in_d'), ('/poweramp/input_ref_z', '/poweramp/input_ref_z'), ('/poweramp/in_a', '/poweramp1/in_a'), ('/poweramp/input_ref', '/inputref'), ('Net-(C32-Pad1)', 'Net-(C66-Pad1)'), ('Net-(IC1-43_BST_B)', 'Net-(IC2-43_BST_B)'), ('/poweramp/in0', '/poweramp1/in0'), ('/poweramp/in1', '/poweramp1/in1'), ('Net-(C16-Pad1)', 'Net-(C36-Pad1)'), ('/poweramp/DVDD', '/poweramp1/DVDD'), ('Net-(IC1-24_BST_C)', 'Net-(IC2-24_BST_C)'), ('/poweramp/out0', '/poweramp1/out0'), ('Net-(C17-Pad1)', 'Net-(C40-Pad1)'), ('/poweramp/in_c', '/poweramp1/in_c'), ('/poweramp/sw0', '/poweramp1/sw0'), ('Net-(IC1-8_FREQ_ADG)', 'Net-(IC2-8_FREQ_ADG)'), ('Net-(IC1-19_FAULT)', 'Net-(IC2-19_FAULT)'), ('/poweramp/out2', '/poweramp1/out2'), ('Net-(IC1-44_BST_A)', 'Net-(IC2-44_BST_A)'), ('Net-(IC1-20_VBG)', 'Net-(IC2-20_VBG)'), ('/poweramp/sw1', '/poweramp1/sw1'), ('/poweramp/in3', '/poweramp1/in3'), ('Net-(R19-Pad2)', 'Net-(R46-Pad2)'), ('Net-(U2A-+)', 'Net-(U3A-+)'), ('/poweramp/~reset', '/poweramp1/~reset'), ('Net-(IC1-1_GVDD_AB)', 'Net-(IC2-1_GVDD_AB)'), ('/poweramp/in_b', '/poweramp1/in_b'), ('Net-(IC1-21_CLIP_OTW)', 'Net-(IC2-21_CLIP_OTW)'), ('PVDD', 'PVDD'), ('/poweramp/out3', '/poweramp1/out3'), ('Net-(C15-Pad1)', 'Net-(C35-Pad1)'), ('/poweramp/AVDD', '/poweramp1/AVDD'), ('Net-(IC1-23_BST_D)', 'Net-(IC2-23_BST_D)'), ('Net-(IC1-7_OC_ADJ)', 'Net-(IC2-7_OC_ADJ)'), ('Net-(IC1-4_M2)', 'Net-(IC2-4_M2)'), ('Net-(IC1-3_M1)', 'Net-(IC2-3_M1)'), ('/poweramp/trim', '/poweramp1/trim'), ('GND', 'GND'), ('Net-(C31-Pad1)', 'Net-(C65-Pad1)'), ('Net-(IC1-18_RESET)', 'Net-(IC2-18_RESET)'), ('/poweramp/sw2', '/poweramp1/sw2'), ('/poweramp/sw3', '/poweramp1/sw3'), ('Net-(C18-Pad1)', 'Net-(C41-Pad1)'), ('Net-(LED2-A)', 'Net-(LED3-A)'), ('/poweramp/out1', '/poweramp1/out1'), ('/poweramp/osc+', '/poweramp/osc+')]
+02-16 11:46:41 root 337:updating GUI with: 0
+02-16 11:46:41 root 332:updating GUI message: 'Replicating zones'
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['poweramp1']
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['poweramp1'] :[('Net-(C34-Pad1)', 'Net-(C68-Pad1)'), ('Net-(IC1-15_C_START)', 'Net-(IC2-15_C_START)'), ('/poweramp/osc-', '/poweramp/osc-'), ('Net-(C33-Pad1)', 'Net-(C67-Pad1)'), ('/poweramp/in2', '/poweramp1/in2'), ('Net-(IC1-22GVDD_CD)', 'Net-(IC2-22GVDD_CD)'), ('/12V', '/12V'), ('Net-(LED1-A)', 'Net-(LED4-A)'), ('/poweramp/in_d', '/poweramp1/in_d'), ('/poweramp/input_ref_z', '/poweramp/input_ref_z'), ('/poweramp/in_a', '/poweramp1/in_a'), ('/poweramp/input_ref', '/inputref'), ('Net-(C32-Pad1)', 'Net-(C66-Pad1)'), ('Net-(IC1-43_BST_B)', 'Net-(IC2-43_BST_B)'), ('/poweramp/in0', '/poweramp1/in0'), ('/poweramp/in1', '/poweramp1/in1'), ('Net-(C16-Pad1)', 'Net-(C36-Pad1)'), ('/poweramp/DVDD', '/poweramp1/DVDD'), ('Net-(IC1-24_BST_C)', 'Net-(IC2-24_BST_C)'), ('/poweramp/out0', '/poweramp1/out0'), ('Net-(C17-Pad1)', 'Net-(C40-Pad1)'), ('/poweramp/in_c', '/poweramp1/in_c'), ('/poweramp/sw0', '/poweramp1/sw0'), ('Net-(IC1-8_FREQ_ADG)', 'Net-(IC2-8_FREQ_ADG)'), ('Net-(IC1-19_FAULT)', 'Net-(IC2-19_FAULT)'), ('/poweramp/out2', '/poweramp1/out2'), ('Net-(IC1-44_BST_A)', 'Net-(IC2-44_BST_A)'), ('Net-(IC1-20_VBG)', 'Net-(IC2-20_VBG)'), ('/poweramp/sw1', '/poweramp1/sw1'), ('/poweramp/in3', '/poweramp1/in3'), ('Net-(R19-Pad2)', 'Net-(R46-Pad2)'), ('Net-(U2A-+)', 'Net-(U3A-+)'), ('/poweramp/~reset', '/poweramp1/~reset'), ('Net-(IC1-1_GVDD_AB)', 'Net-(IC2-1_GVDD_AB)'), ('/poweramp/in_b', '/poweramp1/in_b'), ('Net-(IC1-21_CLIP_OTW)', 'Net-(IC2-21_CLIP_OTW)'), ('PVDD', 'PVDD'), ('/poweramp/out3', '/poweramp1/out3'), ('Net-(C15-Pad1)', 'Net-(C35-Pad1)'), ('/poweramp/AVDD', '/poweramp1/AVDD'), ('Net-(IC1-23_BST_D)', 'Net-(IC2-23_BST_D)'), ('Net-(IC1-7_OC_ADJ)', 'Net-(IC2-7_OC_ADJ)'), ('Net-(IC1-4_M2)', 'Net-(IC2-4_M2)'), ('Net-(IC1-3_M1)', 'Net-(IC2-3_M1)'), ('/poweramp/trim', '/poweramp1/trim'), ('GND', 'GND'), ('Net-(C31-Pad1)', 'Net-(C65-Pad1)'), ('Net-(IC1-18_RESET)', 'Net-(IC2-18_RESET)'), ('/poweramp/sw2', '/poweramp1/sw2'), ('/poweramp/sw3', '/poweramp1/sw3'), ('Net-(C18-Pad1)', 'Net-(C41-Pad1)'), ('Net-(LED2-A)', 'Net-(LED3-A)'), ('/poweramp/out1', '/poweramp1/out1'), ('/poweramp/osc+', '/poweramp/osc+')]
+02-16 11:46:41 root 337:updating GUI with: 0
+02-16 11:46:41 root 332:updating GUI message: 'Replicating text'
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['poweramp1']
+02-16 11:46:41 root 332:updating GUI message: 'Replicating drawings'
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+02-16 11:46:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['poweramp1']
+02-16 11:46:42 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
