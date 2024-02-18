@@ -382,6 +382,9 @@
   (junction (at 104.14 58.42) (diameter 0) (color 0 0 0 0)
     (uuid f29174cd-6ea1-44d5-a5a5-e21f3cddb4bd)
   )
+  (junction (at 133.35 81.28) (diameter 0) (color 0 0 0 0)
+    (uuid fefab73a-bd7f-4337-bd1d-088073695eb7)
+  )
 
   (no_connect (at 64.77 57.15) (uuid 249a5a95-b511-4691-aac3-3aeed3101e78))
   (no_connect (at 64.77 59.69) (uuid b0dcd656-9133-4d87-9947-ca52a35e11b8))
@@ -489,6 +492,10 @@
   (wire (pts (xy 82.55 46.99) (xy 91.44 46.99))
     (stroke (width 0) (type default))
     (uuid 665a1cce-8240-4f91-934b-0336b15f2175)
+  )
+  (wire (pts (xy 133.35 81.28) (xy 138.43 81.28))
+    (stroke (width 0) (type default))
+    (uuid 667ab2e5-3e54-46c3-b824-b85236f03361)
   )
   (wire (pts (xy 104.14 58.42) (xy 107.95 58.42))
     (stroke (width 0) (type default))
@@ -602,6 +609,10 @@
     (stroke (width 0) (type default))
     (uuid d9675228-15d8-4cf1-bf9e-c7295c9de144)
   )
+  (wire (pts (xy 130.81 81.28) (xy 133.35 81.28))
+    (stroke (width 0) (type default))
+    (uuid de18198c-3ece-4cb7-b825-a02530548401)
+  )
   (wire (pts (xy 153.67 49.53) (xy 161.29 49.53))
     (stroke (width 0) (type default))
     (uuid e1e6796a-e3ee-4ce2-b3ae-15908e653ff4)
@@ -659,6 +670,10 @@
   (label "fakegnd" (at 208.28 85.09 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 983e4d02-0c35-48f6-a4fc-b485cb88442c)
+  )
+  (label "fakegnd" (at 138.43 81.28 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid b928b574-85aa-4be7-bdc9-e85ad954b3cc)
   )
 
   (hierarchical_label "fakegnd" (shape input) (at 208.28 80.01 0) (fields_autoplaced)
@@ -833,6 +848,56 @@
         )
         (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/fb6b8bc8-ff14-4d64-816d-20c0f51b1294"
           (reference "C73") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 133.35 85.09 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 72a3b681-bbce-44b2-a149-d635b708902b)
+    (property "Reference" "C77" (at 134.62 82.55 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 134.62 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "invendelirium_audio:C_0603" (at 134.3152 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 133.35 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Voltage" "16V" (at 133.35 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8bcb40ae-8aad-49c2-9069-bda5caa19903))
+    (pin "2" (uuid 58546dec-5490-4b4e-8241-17de03f611f6))
+    (instances
+      (project "uberamp1"
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/5156a0a1-195e-40e3-846d-487893ba8fa7"
+          (reference "C77") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/f0f90934-0ffc-42c4-856c-3b886cd79d06"
+          (reference "C78") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c6ef957f-dbb4-496d-aec2-44492c2243c4"
+          (reference "C77") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/1727f815-1282-4ad8-874c-d1f66f4d7fbe"
+          (reference "C78") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/e09aca01-5377-42b6-85e8-8afbf1155690"
+          (reference "C79") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/b23c2595-3b45-43cf-b3fd-b0c94e6d7f84"
+          (reference "C80") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/605c496f-1ba6-4b8d-86f6-e928e6401a1d"
+          (reference "CRB0") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/fb6b8bc8-ff14-4d64-816d-20c0f51b1294"
+          (reference "CRB1") (unit 1)
         )
       )
     )
@@ -1098,6 +1163,37 @@
         )
         (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/fb6b8bc8-ff14-4d64-816d-20c0f51b1294"
           (reference "#PWR075") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 133.35 88.9 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cff59da6-628d-407c-b254-c04fcf6d6626)
+    (property "Reference" "#PWR02" (at 133.35 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 133.35 93.98 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 133.35 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 133.35 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6cc7b37c-d151-499f-8207-337c5b687716))
+    (instances
+      (project "uberamp1"
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c6ef957f-dbb4-496d-aec2-44492c2243c4"
+          (reference "#PWR02") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/605c496f-1ba6-4b8d-86f6-e928e6401a1d"
+          (reference "#PWR082") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/fb6b8bc8-ff14-4d64-816d-20c0f51b1294"
+          (reference "#PWR083") (unit 1)
         )
       )
     )

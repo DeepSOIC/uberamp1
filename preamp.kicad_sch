@@ -271,6 +271,9 @@
   (junction (at 30.48 64.77) (diameter 0) (color 0 0 0 0)
     (uuid 363e1f35-1f97-4502-ba17-42a20714deed)
   )
+  (junction (at 48.26 74.93) (diameter 0) (color 0 0 0 0)
+    (uuid 38f1cbcf-5459-480d-a302-a15973042ef3)
+  )
   (junction (at 49.53 107.95) (diameter 0) (color 0 0 0 0)
     (uuid 38fe09ac-e1c6-482f-8e27-c7298314e682)
   )
@@ -369,7 +372,7 @@
     (stroke (width 0) (type default))
     (uuid 21750bea-fd10-4ecc-b2a3-914ff42bdb8b)
   )
-  (wire (pts (xy 48.26 44.45) (xy 48.26 102.87))
+  (wire (pts (xy 48.26 44.45) (xy 48.26 74.93))
     (stroke (width 0) (type default))
     (uuid 21d806a8-972f-4ae0-afec-d586ad3da1ef)
   )
@@ -461,6 +464,10 @@
     (stroke (width 0) (type default))
     (uuid 8ed63c55-4f27-4cf6-b5f9-df90dab0c5ef)
   )
+  (wire (pts (xy 48.26 74.93) (xy 48.26 102.87))
+    (stroke (width 0) (type default))
+    (uuid 9951deb4-1a1c-457c-91ce-c358ad45ca87)
+  )
   (wire (pts (xy 24.13 57.15) (xy 33.02 57.15))
     (stroke (width 0) (type default))
     (uuid 99b06915-e6f7-4e3a-be56-576558692f65)
@@ -512,6 +519,10 @@
   (wire (pts (xy 43.18 107.95) (xy 44.45 107.95))
     (stroke (width 0) (type default))
     (uuid c54869e8-c03d-4d57-bede-603466d81fb5)
+  )
+  (wire (pts (xy 48.26 74.93) (xy 53.34 74.93))
+    (stroke (width 0) (type default))
+    (uuid c8fc7303-5311-4076-8e7f-e1604b9d3c23)
   )
   (wire (pts (xy 43.18 64.77) (xy 43.18 57.15))
     (stroke (width 0) (type default))
@@ -982,6 +993,50 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 53.34 78.74 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 664e1724-93e4-4db0-8413-c46b4fc59e8c)
+    (property "Reference" "C77" (at 54.61 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 54.61 81.28 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "invendelirium_audio:C_0603" (at 54.3052 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 53.34 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Voltage" "16V" (at 53.34 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 55895057-dabd-459c-ac20-0d139e6c31b5))
+    (pin "2" (uuid bc3fde28-809d-4811-8b23-faf77bade011))
+    (instances
+      (project "uberamp1"
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/5156a0a1-195e-40e3-846d-487893ba8fa7"
+          (reference "C77") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/f0f90934-0ffc-42c4-856c-3b886cd79d06"
+          (reference "C78") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c6ef957f-dbb4-496d-aec2-44492c2243c4"
+          (reference "CRP0") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/1727f815-1282-4ad8-874c-d1f66f4d7fbe"
+          (reference "CRP1") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/e09aca01-5377-42b6-85e8-8afbf1155690"
+          (reference "CRP2") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/b23c2595-3b45-43cf-b3fd-b0c94e6d7f84"
+          (reference "CRP3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Small") (at 38.1 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77705ea8-d27c-43f9-87c4-3dd718b15966)
@@ -1090,7 +1145,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 44.45 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99b8e2f5-fccf-4603-b83f-355a56226111)
-    (property "Reference" "s1" (at 43.18 102.87 0)
+    (property "Reference" "s0" (at 43.18 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "sum0" (at 46.99 106.553 0)
@@ -1106,16 +1161,16 @@
     (instances
       (project "uberamp1"
         (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c6ef957f-dbb4-496d-aec2-44492c2243c4"
-          (reference "s1") (unit 1)
+          (reference "s0") (unit 1)
         )
         (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/1727f815-1282-4ad8-874c-d1f66f4d7fbe"
-          (reference "s3") (unit 1)
+          (reference "s2") (unit 1)
         )
         (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/e09aca01-5377-42b6-85e8-8afbf1155690"
-          (reference "s5") (unit 1)
+          (reference "s4") (unit 1)
         )
         (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/b23c2595-3b45-43cf-b3fd-b0c94e6d7f84"
-          (reference "s7") (unit 1)
+          (reference "s6") (unit 1)
         )
       )
     )
@@ -1200,7 +1255,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 44.45 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b836fdd2-1ec3-4c91-8a3f-7aeb244838d7)
-    (property "Reference" "s0" (at 43.18 44.45 0)
+    (property "Reference" "s1" (at 43.18 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "sum0" (at 46.99 48.133 0)
@@ -1216,16 +1271,16 @@
     (instances
       (project "uberamp1"
         (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c6ef957f-dbb4-496d-aec2-44492c2243c4"
-          (reference "s0") (unit 1)
+          (reference "s1") (unit 1)
         )
         (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/1727f815-1282-4ad8-874c-d1f66f4d7fbe"
-          (reference "s2") (unit 1)
+          (reference "s3") (unit 1)
         )
         (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/e09aca01-5377-42b6-85e8-8afbf1155690"
-          (reference "s4") (unit 1)
+          (reference "s5") (unit 1)
         )
         (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/b23c2595-3b45-43cf-b3fd-b0c94e6d7f84"
-          (reference "s6") (unit 1)
+          (reference "s7") (unit 1)
         )
       )
     )
@@ -1296,6 +1351,40 @@
         )
         (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/b23c2595-3b45-43cf-b3fd-b0c94e6d7f84"
           (reference "R91") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 53.34 82.55 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d3036d27-de28-466a-a4ed-b6308159ce0d)
+    (property "Reference" "#PWR078" (at 53.34 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 53.34 87.63 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 53.34 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 53.34 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6fa45f4d-ce03-4a9a-9283-c0bf44473215))
+    (instances
+      (project "uberamp1"
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c6ef957f-dbb4-496d-aec2-44492c2243c4"
+          (reference "#PWR078") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/1727f815-1282-4ad8-874c-d1f66f4d7fbe"
+          (reference "#PWR079") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/e09aca01-5377-42b6-85e8-8afbf1155690"
+          (reference "#PWR080") (unit 1)
+        )
+        (path "/310059c1-d84b-43e2-9c9a-0e426c534a12/b23c2595-3b45-43cf-b3fd-b0c94e6d7f84"
+          (reference "#PWR081") (unit 1)
         )
       )
     )
