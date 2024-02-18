@@ -1,3 +1,8 @@
 * generate 12V
 * pads for power
 * add fakegnd pads
+* add some test pads
+
+last steps:
+* some pads need solid connections
+* check pvdd vias
