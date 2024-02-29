@@ -536,6 +536,30 @@
     [
       "fb6b8bc8-ff14-4d64-816d-20c0f51b1294",
       "feedbass_preamp1"
+    ],
+    [
+      "9338c448-a5fc-4246-a946-e7fc08f9b36f",
+      "dac0"
+    ],
+    [
+      "906b57e9-9db9-476e-b6b6-ee649f34d32d",
+      "dac_amp0"
+    ],
+    [
+      "df9a1657-9225-4952-bfcc-fc7bd0b37587",
+      "dac_amp1"
+    ],
+    [
+      "7069641c-0ed4-4995-a63e-1f44999c4edd",
+      "dac1"
+    ],
+    [
+      "906b57e9-9db9-476e-b6b6-ee649f34d32d",
+      "dac_amp0"
+    ],
+    [
+      "df9a1657-9225-4952-bfcc-fc7bd0b37587",
+      "dac_amp1"
     ]
   ],
   "text_variables": {}
