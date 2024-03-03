@@ -421,8 +421,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "invendelirium_audio"
+    ],
+    "pinned_symbol_libs": [
+      "invendelirium_ic"
+    ]
   },
   "meta": {
     "filename": "uberamp1.kicad_pro",
@@ -560,6 +564,10 @@
     [
       "df9a1657-9225-4952-bfcc-fc7bd0b37587",
       "dac_amp1"
+    ],
+    [
+      "4d0cf4b6-29af-402d-96b9-0bcbddb66920",
+      "supplies"
     ]
   ],
   "text_variables": {}
