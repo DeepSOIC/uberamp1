@@ -2158,6 +2158,10 @@
     (uuid ffecaa19-62f7-4d04-ab25-d5f69ede62c8)
   )
 
+  (text "3.82V" (at 166.37 148.59 0)
+    (effects (font (size 1.016 1.016)) (justify left bottom))
+    (uuid 1204375a-455d-4cef-849d-d95f71b705d7)
+  )
   (text "4.54vpp" (at 60.96 157.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1e887abf-bd33-4911-a7b4-290efdec70b2)

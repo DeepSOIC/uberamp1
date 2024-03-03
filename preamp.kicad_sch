@@ -741,7 +741,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 105.41 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "" (at 109.22 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
