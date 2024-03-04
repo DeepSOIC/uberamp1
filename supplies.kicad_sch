@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 3d1e07e0-5d78-4e3b-8ee5-50e5ed0f54e6)
+  (uuid ef680b65-d14f-44be-a4b1-9d199f762092)
 
   (paper "A4")
 
@@ -1996,10 +1996,10 @@
     (property "Reference" "L3" (at 99.06 104.14 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "33uH 3A" (at 99.06 106.68 90)
+    (property "Value" "6.8uH 3A" (at 99.06 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "invendelirium_audio:SPM6545_horz" (at 99.06 107.95 0)
+    (property "Footprint" "" (at 99.06 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 99.06 107.95 0)
