@@ -422,10 +422,13 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "invendelirium_audio"
+      "invendelirium_audio",
+      "invendelirium_general"
     ],
     "pinned_symbol_libs": [
-      "invendelirium_ic"
+      "invendelirium_ic",
+      "invendelirium_audio",
+      "victor_strawlab"
     ]
   },
   "meta": {
@@ -471,7 +474,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 1,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -568,6 +571,22 @@
     [
       "4d0cf4b6-29af-402d-96b9-0bcbddb66920",
       "supplies"
+    ],
+    [
+      "9f0654db-0c52-4f70-8768-bb44a6ed6168",
+      "dsp"
+    ],
+    [
+      "bdc752ed-9597-4bf2-aca7-063e6d6c7fda",
+      "audio_input"
+    ],
+    [
+      "c7f5e7f4-a933-42eb-8650-67011ef6e24d",
+      "esp32"
+    ],
+    [
+      "2fefbd12-b9e0-4841-863e-105a3ff6cb21",
+      "i2s_clockgen"
     ]
   ],
   "text_variables": {}
