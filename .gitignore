@@ -21,6 +21,7 @@ _autosave-*
 fp-info-cache
 replicate_layout.log
 \#auto_saved_files\#
+~*.lck
 
 # Netlist files (exported from Eeschema)
 *.net
