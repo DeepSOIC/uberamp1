@@ -2985,6 +2985,12 @@
 		(uuid "57eba127-d5ad-4ce9-9eea-25a85d553bfa")
 	)
 	(junction
+		(at 41.91 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a1bd80c-0bc1-499b-87b1-8a8e89a1f475")
+	)
+	(junction
 		(at 123.19 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3502,16 +3508,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 128.27) (xy 45.72 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "135839bd-05b9-48f4-9aaa-0b6d0e355fde")
-	)
-	(wire
-		(pts
 			(xy 233.68 92.71) (xy 241.3 92.71)
 		)
 		(stroke
@@ -3662,6 +3658,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 128.27) (xy 41.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26fe7166-b946-479a-9f8f-e7fa8af8d587")
+	)
+	(wire
+		(pts
 			(xy 175.26 59.69) (xy 179.07 59.69)
 		)
 		(stroke
@@ -3739,6 +3745,16 @@
 			(type default)
 		)
 		(uuid "321baea7-5aa7-49ee-8807-f34ef3ae0359")
+	)
+	(wire
+		(pts
+			(xy 41.91 128.27) (xy 45.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b00482-5002-4f4d-9461-855f33128841")
 	)
 	(wire
 		(pts
@@ -6259,7 +6275,7 @@
 	)
 	(hierarchical_label "~reset"
 		(shape input)
-		(at 44.45 128.27 180)
+		(at 38.1 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8255,6 +8271,76 @@
 				)
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/f0f90934-0ffc-42c4-856c-3b886cd79d06"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 41.91 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48b93310-6a45-499a-85eb-2cffa1c5bc78")
+		(property "Reference" "s30"
+			(at 40.64 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "reset"
+			(at 40.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "invendelirium_general:pad_1.2x1.5"
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7653c59f-b728-4332-8c91-c3c32d44f3e5")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/5156a0a1-195e-40e3-846d-487893ba8fa7"
+					(reference "s30")
+					(unit 1)
+				)
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/f0f90934-0ffc-42c4-856c-3b886cd79d06"
+					(reference "s31")
 					(unit 1)
 				)
 			)

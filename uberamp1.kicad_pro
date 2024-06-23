@@ -406,7 +406,7 @@
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
-      "missing_unit": "warning",
+      "missing_unit": "error",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -415,8 +415,8 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
-      "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "similar_labels": "ignore",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -658,6 +658,10 @@
     [
       "2fefbd12-b9e0-4841-863e-105a3ff6cb21",
       "i2s_clockgen"
+    ],
+    [
+      "ab5c5b5e-1cc6-4d2d-932d-000728df275d",
+      "line_out"
     ]
   ],
   "text_variables": {}

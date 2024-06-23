@@ -11786,6 +11786,44 @@
 		)
 	)
 	(sheet
+		(at 240.03 41.91)
+		(size 35.56 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab5c5b5e-1cc6-4d2d-932d-000728df275d")
+		(property "Sheetname" "line_out"
+			(at 240.03 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "line_out.kicad_sch"
+			(at 240.03 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9f0654db-0c52-4f70-8768-bb44a6ed6168"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 40.64)
 		(size 30.48 16.51)
 		(fields_autoplaced yes)

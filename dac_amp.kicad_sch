@@ -2563,106 +2563,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 62.23 134.62 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91c6280e-d63a-4a0f-8a6e-a840801647c5")
-		(property "Reference" "U11"
-			(at 60.96 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Opamp_Dual"
-			(at 60.96 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ec1f9d2-943b-4c78-8c34-0d033cbb06de")
-		)
-		(pin "2"
-			(uuid "5e7257a5-87fa-4201-b2f0-0e77d8561a22")
-		)
-		(pin "3"
-			(uuid "8719fa69-29d0-429e-a473-2cd577a85d4f")
-		)
-		(pin "5"
-			(uuid "70a59168-85d1-4fe5-9a33-002ccd203f67")
-		)
-		(pin "6"
-			(uuid "983f2cbd-8ce0-4a48-afc6-1a1839dc11cd")
-		)
-		(pin "7"
-			(uuid "7c4f05c6-3c83-4658-9dcd-81fca207f75e")
-		)
-		(pin "4"
-			(uuid "cbfd3eaf-3aea-4500-82f3-c410853f5e64")
-		)
-		(pin "8"
-			(uuid "7d47090c-7a10-47ba-9723-c42a820ed456")
-		)
-		(instances
-			(project "uberamp1"
-				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd/906b57e9-9db9-476e-b6b6-ee649f34d32d"
-					(reference "U15")
-					(unit 3)
-				)
-				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd/df9a1657-9225-4952-bfcc-fc7bd0b37587"
-					(reference "U17")
-					(unit 3)
-				)
-				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f/906b57e9-9db9-476e-b6b6-ee649f34d32d"
-					(reference "U11")
-					(unit 3)
-				)
-				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f/df9a1657-9225-4952-bfcc-fc7bd0b37587"
-					(reference "U12")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 67.31 27.94 90)
 		(unit 1)
@@ -2748,104 +2648,6 @@
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f/df9a1657-9225-4952-bfcc-fc7bd0b37587"
 					(reference "C92")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 68.58 88.9 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3eb123b-73cd-450b-9d5d-53196d6d5322")
-		(property "Reference" "U11"
-			(at 68.58 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Opamp_Dual"
-			(at 68.58 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a934e0d-916e-4796-bb12-6a429e65db0c")
-		)
-		(pin "2"
-			(uuid "417d9fed-a6e9-4970-95f6-42ec27bdc828")
-		)
-		(pin "3"
-			(uuid "dd0b69a8-7503-4648-bc02-1032f2665143")
-		)
-		(pin "5"
-			(uuid "2c6c7f8b-40ff-431c-b1ed-4d3e4d59af2b")
-		)
-		(pin "6"
-			(uuid "ab240126-2b1f-4fc7-b895-4990cac5fbf1")
-		)
-		(pin "7"
-			(uuid "bf9d1883-dfad-484c-ae33-b31483d3bcad")
-		)
-		(pin "4"
-			(uuid "dd55a087-5803-4732-b1bb-2fcb992ce381")
-		)
-		(pin "8"
-			(uuid "2ab6c758-eedc-4bb4-b1ec-27ef71c3d788")
-		)
-		(instances
-			(project "uberamp1"
-				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd/906b57e9-9db9-476e-b6b6-ee649f34d32d"
-					(reference "U17")
-					(unit 2)
-				)
-				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd/df9a1657-9225-4952-bfcc-fc7bd0b37587"
-					(reference "U17")
-					(unit 2)
-				)
-				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f/906b57e9-9db9-476e-b6b6-ee649f34d32d"
-					(reference "U11")
-					(unit 2)
-				)
-				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f/df9a1657-9225-4952-bfcc-fc7bd0b37587"
-					(reference "U12")
-					(unit 2)
 				)
 			)
 		)
@@ -2939,9 +2741,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b23a4596-3da1-4dca-8094-a931b711296d")
+		(uuid "b5d643f7-daf7-4dcb-a65e-f61e28d9a67c")
 		(property "Reference" "U11"
-			(at 68.58 31.75 0)
+			(at 68.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2751,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 68.58 34.29 0)
+			(at 68.58 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +2776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual operational amplifier"
 			(at 68.58 40.64 0)
 			(effects
 				(font
@@ -2983,32 +2785,68 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e22aa778-235b-483c-8d5b-72f2e41e4699")
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 68.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "6a32e5a7-3495-4e26-b08e-68984d0b8612")
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 68.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 68.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 68.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "c88d1c06-d478-41c7-b09f-517b01b00738")
+			(uuid "c49602c4-92ad-430e-969a-7e228d6b975e")
+		)
+		(pin "2"
+			(uuid "6a6354d1-e5cf-4efa-8973-aa69bb0fbc0c")
+		)
+		(pin "1"
+			(uuid "26b2d1da-105c-4090-8018-b4864f7c1dec")
 		)
 		(pin "5"
-			(uuid "fc349d4d-6088-495b-ba23-48a2dca5d438")
-		)
-		(pin "6"
-			(uuid "c3cab5a0-a2ac-4323-8789-245c284ac8eb")
-		)
-		(pin "7"
-			(uuid "33602a21-c25f-4d49-9021-963040d8283c")
-		)
-		(pin "4"
-			(uuid "ca453028-43b2-47f3-8bcc-0ca4ffad0c09")
+			(uuid "fd8adf87-20c6-46ae-8334-a2f77f5c2ddc")
 		)
 		(pin "8"
-			(uuid "28493354-3cdc-4471-bb01-985b07ad5115")
+			(uuid "1adb297a-1bac-4033-9c55-e2c20981c83d")
+		)
+		(pin "7"
+			(uuid "87409d72-23f9-48a4-b6e3-869570d6e475")
+		)
+		(pin "6"
+			(uuid "55b8fa54-ca96-475f-bfaa-5d16542c2fbd")
+		)
+		(pin "4"
+			(uuid "97c6d0bd-d99f-4f54-a547-58ad69443d47")
 		)
 		(instances
-			(project "uberamp1"
+			(project ""
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd/906b57e9-9db9-476e-b6b6-ee649f34d32d"
 					(reference "U16")
 					(unit 1)
@@ -3677,6 +3515,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 62.23 134.62 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5d18920-c520-4c1c-a7e5-551b91e0b749")
+		(property "Reference" "U11"
+			(at 60.96 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 60.96 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c49602c4-92ad-430e-969a-7e228d6b975e")
+		)
+		(pin "2"
+			(uuid "6a6354d1-e5cf-4efa-8973-aa69bb0fbc0c")
+		)
+		(pin "1"
+			(uuid "26b2d1da-105c-4090-8018-b4864f7c1dec")
+		)
+		(pin "5"
+			(uuid "fd8adf87-20c6-46ae-8334-a2f77f5c2ddc")
+		)
+		(pin "8"
+			(uuid "1adb297a-1bac-4033-9c55-e2c20981c83d")
+		)
+		(pin "7"
+			(uuid "87409d72-23f9-48a4-b6e3-869570d6e475")
+		)
+		(pin "6"
+			(uuid "55b8fa54-ca96-475f-bfaa-5d16542c2fbd")
+		)
+		(pin "4"
+			(uuid "97c6d0bd-d99f-4f54-a547-58ad69443d47")
+		)
+		(instances
+			(project ""
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd/906b57e9-9db9-476e-b6b6-ee649f34d32d"
+					(reference "U15")
+					(unit 3)
+				)
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd/df9a1657-9225-4952-bfcc-fc7bd0b37587"
+					(reference "U17")
+					(unit 3)
+				)
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f/906b57e9-9db9-476e-b6b6-ee649f34d32d"
+					(reference "U11")
+					(unit 3)
+				)
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f/df9a1657-9225-4952-bfcc-fc7bd0b37587"
+					(reference "U12")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 60.96 68.58 90)
 		(unit 1)
@@ -3920,6 +3894,140 @@
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f/df9a1657-9225-4952-bfcc-fc7bd0b37587"
 					(reference "C84")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 68.58 88.9 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcd580b2-7165-4780-a53c-5143dcf4b24e")
+		(property "Reference" "U11"
+			(at 68.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c49602c4-92ad-430e-969a-7e228d6b975e")
+		)
+		(pin "2"
+			(uuid "6a6354d1-e5cf-4efa-8973-aa69bb0fbc0c")
+		)
+		(pin "1"
+			(uuid "26b2d1da-105c-4090-8018-b4864f7c1dec")
+		)
+		(pin "5"
+			(uuid "fd8adf87-20c6-46ae-8334-a2f77f5c2ddc")
+		)
+		(pin "8"
+			(uuid "1adb297a-1bac-4033-9c55-e2c20981c83d")
+		)
+		(pin "7"
+			(uuid "87409d72-23f9-48a4-b6e3-869570d6e475")
+		)
+		(pin "6"
+			(uuid "55b8fa54-ca96-475f-bfaa-5d16542c2fbd")
+		)
+		(pin "4"
+			(uuid "97c6d0bd-d99f-4f54-a547-58ad69443d47")
+		)
+		(instances
+			(project ""
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd/906b57e9-9db9-476e-b6b6-ee649f34d32d"
+					(reference "U16")
+					(unit 2)
+				)
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd/df9a1657-9225-4952-bfcc-fc7bd0b37587"
+					(reference "U17")
+					(unit 2)
+				)
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f/906b57e9-9db9-476e-b6b6-ee649f34d32d"
+					(reference "U11")
+					(unit 2)
+				)
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f/df9a1657-9225-4952-bfcc-fc7bd0b37587"
+					(reference "U12")
+					(unit 2)
 				)
 			)
 		)

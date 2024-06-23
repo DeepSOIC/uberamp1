@@ -2282,7 +2282,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 73.66) (xy 193.04 73.66)
+			(xy 191.77 73.66) (xy 195.58 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2362,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 74.93) (xy 189.23 73.66)
+			(xy 191.77 74.93) (xy 191.77 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2539,6 +2539,16 @@
 			(type default)
 		)
 		(uuid "608e002e-a754-4b6e-bd3d-aec677b58a73")
+	)
+	(wire
+		(pts
+			(xy 187.96 74.93) (xy 191.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667a82b6-ecd3-40a2-a1ba-da083c7d442e")
 	)
 	(wire
 		(pts
@@ -2822,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 189.23 74.93)
+			(xy 176.53 74.93) (xy 182.88 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3271,7 +3281,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 73.66 0)
+		(at 195.58 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3280,7 +3290,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a534fd3-fadc-4bec-9463-46f6cc57762c")
 		(property "Reference" "#PWR0184"
-			(at 193.04 80.01 0)
+			(at 195.58 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3299,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 78.74 0)
+			(at 195.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 73.66 0)
+			(at 195.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 73.66 0)
+			(at 195.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3326,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 73.66 0)
+			(at 195.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,6 +4463,74 @@
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c7f5e7f4-a933-42eb-8650-67011ef6e24d"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 185.42 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "919512fb-df47-4532-93ca-c4d506779650")
+		(property "Reference" "R222"
+			(at 185.42 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 185.42 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "invendelirium_audio:R_0603"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f3c99ed-42ae-47b4-9438-baae88b1dfe7")
+		)
+		(pin "2"
+			(uuid "779025e6-ddbc-4223-95ad-407c18660c99")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c7f5e7f4-a933-42eb-8650-67011ef6e24d"
+					(reference "R222")
 					(unit 1)
 				)
 			)

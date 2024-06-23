@@ -1555,12 +1555,6 @@
 		(uuid "9e6861c0-22c0-47e8-9dc0-4c72bd8b5a65")
 	)
 	(junction
-		(at 116.84 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4ac7f36-0bb9-493f-b14a-e0d28a692233")
-	)
-	(junction
 		(at 99.06 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1589,6 +1583,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8ec7040-67a5-4721-b466-39341cfe5a3c")
+	)
+	(no_connect
+		(at 82.55 115.57)
+		(uuid "3fc7a491-398d-4977-b1df-d6c5c3fd2732")
+	)
+	(no_connect
+		(at 82.55 69.85)
+		(uuid "c8516b73-c942-4007-8616-faf56bfdf808")
 	)
 	(no_connect
 		(at 184.15 137.16)
@@ -1710,7 +1712,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 146.05) (xy 121.92 146.05)
+			(xy 110.49 146.05) (xy 121.92 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1957,16 +1959,6 @@
 			(type default)
 		)
 		(uuid "73a6ed2d-c4a1-4a62-a09a-474553e6db18")
-	)
-	(wire
-		(pts
-			(xy 110.49 146.05) (xy 116.84 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce0d6a2-0c91-42e6-997e-85d8af7c7bab")
 	)
 	(wire
 		(pts
@@ -5320,72 +5312,6 @@
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/4d0cf4b6-29af-402d-96b9-0bcbddb66920"
 					(reference "C127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 116.84 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df5e4048-1fb4-483d-b28c-0f2bf593f241")
-		(property "Reference" "#FLG09"
-			(at 116.84 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 116.84 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7ac39bd-167d-497d-9339-1501593b3d7a")
-		)
-		(instances
-			(project "uberamp1"
-				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/4d0cf4b6-29af-402d-96b9-0bcbddb66920"
-					(reference "#FLG09")
 					(unit 1)
 				)
 			)
