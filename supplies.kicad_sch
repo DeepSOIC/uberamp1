@@ -3639,7 +3639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5952a488-c2f3-44d4-8629-090dc84f579d")
-		(property "Reference" "C132"
+		(property "Reference" "CU20"
 			(at 100.33 147.32 0)
 			(effects
 				(font
@@ -3702,7 +3702,7 @@
 		(instances
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/4d0cf4b6-29af-402d-96b9-0bcbddb66920"
-					(reference "C132")
+					(reference "CU20")
 					(unit 1)
 				)
 			)
@@ -5215,6 +5215,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "tps3824-50"
+			(at 191.77 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f139f054-8c89-4502-ad56-cb9822d4671e")
 		)
@@ -5248,7 +5257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6868b33-f29d-43e7-9766-ec18a11a2244")
-		(property "Reference" "C127"
+		(property "Reference" "CU19L"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -5311,7 +5320,7 @@
 		(instances
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/4d0cf4b6-29af-402d-96b9-0bcbddb66920"
-					(reference "C127")
+					(reference "CU19L")
 					(unit 1)
 				)
 			)

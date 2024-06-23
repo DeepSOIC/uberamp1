@@ -1747,7 +1747,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" ""
+		(property "PN" "KC2016K24.57C10E"
 			(at 69.85 55.88 0)
 			(effects
 				(font

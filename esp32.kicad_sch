@@ -2227,8 +2227,100 @@
 		(uuid "f6418020-82d0-4051-a58b-a6c1f11a1dd9")
 	)
 	(no_connect
+		(at 176.53 118.11)
+		(uuid "008df273-c7ce-419f-9543-1a6245d105cb")
+	)
+	(no_connect
+		(at 146.05 95.25)
+		(uuid "0cbc30a2-ca24-400c-b5ff-935543cea353")
+	)
+	(no_connect
+		(at 176.53 90.17)
+		(uuid "0e015739-7f27-4a65-ae96-be82ddf132c7")
+	)
+	(no_connect
+		(at 176.53 113.03)
+		(uuid "153ea611-65a9-476c-a6c0-83eb31da2962")
+	)
+	(no_connect
+		(at 146.05 97.79)
+		(uuid "2e9df4e0-a7de-43ba-a93b-c5c25333fbbe")
+	)
+	(no_connect
+		(at 176.53 87.63)
+		(uuid "358837b8-7161-4009-a317-074aec6c4376")
+	)
+	(no_connect
+		(at 146.05 67.31)
+		(uuid "3a816ca0-e8e5-429d-9adc-daffbe740438")
+	)
+	(no_connect
+		(at 146.05 92.71)
+		(uuid "42f72840-fcfc-41fc-b153-0ab8fe3e7f7a")
+	)
+	(no_connect
+		(at 146.05 64.77)
+		(uuid "4449a62b-ca43-4292-b572-067f7bf87748")
+	)
+	(no_connect
+		(at 36.83 119.38)
+		(uuid "5219b12f-6952-45f5-b0b9-12fb7ed34473")
+	)
+	(no_connect
+		(at 176.53 110.49)
+		(uuid "54e13a6c-ec17-4c3a-8694-201f7500641f")
+	)
+	(no_connect
+		(at 176.53 115.57)
+		(uuid "55a899d8-4516-4fe3-ba4f-7a537a4f1cf1")
+	)
+	(no_connect
+		(at 176.53 92.71)
+		(uuid "5d48c290-52dc-4d1b-99ac-0623d6e33082")
+	)
+	(no_connect
+		(at 176.53 107.95)
+		(uuid "7407cb42-3ed1-43ea-a3a4-1cd04f8d82bc")
+	)
+	(no_connect
 		(at 76.2 35.56)
 		(uuid "832f3617-be07-49a0-9c97-b7c4a2c0fcf2")
+	)
+	(no_connect
+		(at 146.05 90.17)
+		(uuid "871720b8-62cf-438d-b049-828e01749f82")
+	)
+	(no_connect
+		(at 146.05 100.33)
+		(uuid "9dae2baf-6754-4e3c-b7b3-8573b338033f")
+	)
+	(no_connect
+		(at 176.53 77.47)
+		(uuid "a6df73f1-fc4e-44ba-b340-331ee341e31f")
+	)
+	(no_connect
+		(at 176.53 64.77)
+		(uuid "b0dc7eae-7d55-41c0-85cf-55b56013ffcb")
+	)
+	(no_connect
+		(at 146.05 102.87)
+		(uuid "dbe21e66-a7e9-42ec-a81a-5dd4ac50ea14")
+	)
+	(no_connect
+		(at 176.53 72.39)
+		(uuid "df7fdc96-409b-4974-a84c-a0964d31665a")
+	)
+	(no_connect
+		(at 176.53 100.33)
+		(uuid "ecd4287e-aed9-41c7-b084-cb74d9006a8d")
+	)
+	(no_connect
+		(at 176.53 69.85)
+		(uuid "fdcf59a2-d5fc-4f20-a16a-9a8f23573838")
+	)
+	(no_connect
+		(at 176.53 82.55)
+		(uuid "ff080120-ea77-40aa-91e9-74dfc1548935")
 	)
 	(wire
 		(pts
@@ -4900,6 +4992,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 36.83 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af328370-11ca-42a0-ad63-6f105101ab1b")
+		(property "Reference" "#PWR0195"
+			(at 36.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b8f7918-d315-4135-b738-f8da87d33623")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c7f5e7f4-a933-42eb-8650-67011ef6e24d"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "invendelirium_ic:LMZM23601")
 		(at 63.5 33.02 0)
 		(unit 1)
@@ -4944,6 +5103,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "LMZM23601"
 			(at 63.5 33.02 0)
 			(effects
 				(font
@@ -5041,6 +5209,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ESP32-WROOM-32E-N16"
 			(at 161.29 90.17 0)
 			(effects
 				(font
