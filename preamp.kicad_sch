@@ -1655,7 +1655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f135775-6b43-492d-a3bb-ddaea86dae93")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 110.49 92.71 0)
 			(effects
 				(font
@@ -1692,6 +1692,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 111.76 92.71 0)
 			(effects
 				(font
@@ -1755,7 +1791,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "123d2229-559a-4ddd-8261-9fdb11f34613")
-		(property "Reference" "R85"
+		(property "Reference" "R57"
 			(at 38.1 74.93 90)
 			(effects
 				(font
@@ -1790,6 +1826,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 38.1 80.01 0)
 			(effects
 				(font
@@ -1835,7 +1907,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1814d027-ea06-4b86-b987-144f408ea6c0")
-		(property "Reference" "R84"
+		(property "Reference" "R56"
 			(at 38.1 67.31 90)
 			(effects
 				(font
@@ -1870,6 +1942,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 38.1 72.39 0)
 			(effects
 				(font
@@ -1915,7 +2023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "252b879e-3b4d-4044-83d7-3e63b83cd1b4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR070"
 			(at 109.22 106.68 0)
 			(effects
 				(font
@@ -1993,7 +2101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b568233-c8fd-49f9-8456-310e4a9d9d88")
-		(property "Reference" "CU1"
+		(property "Reference" "CU4"
 			(at 127 91.44 0)
 			(effects
 				(font
@@ -2047,6 +2155,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29af831b-5af4-4428-a90e-5d2b3ce3c80a")
 		)
@@ -2084,7 +2228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ca26aa5-0f5a-4221-848d-9c8ba0d17cbc")
-		(property "Reference" "R3"
+		(property "Reference" "R55"
 			(at 38.1 59.69 90)
 			(effects
 				(font
@@ -2119,6 +2263,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 38.1 64.77 0)
 			(effects
 				(font
@@ -2164,7 +2344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cf17d43-63f2-4bde-bda5-ae79044e274d")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 58.42 38.1 0)
 			(effects
 				(font
@@ -2199,6 +2379,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 58.42 46.99 0)
 			(effects
 				(font
@@ -2262,7 +2478,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5399fcd3-c0f3-411c-b824-334247970820")
-		(property "Reference" "R92"
+		(property "Reference" "R61"
 			(at 38.1 125.73 90)
 			(effects
 				(font
@@ -2297,6 +2513,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 38.1 130.81 0)
 			(effects
 				(font
@@ -2342,7 +2594,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5b89de79-33e0-4bd0-abce-daa6d9442eb6")
-		(property "Reference" "R93"
+		(property "Reference" "R62"
 			(at 38.1 133.35 90)
 			(effects
 				(font
@@ -2377,6 +2629,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 38.1 138.43 0)
 			(effects
 				(font
@@ -2422,7 +2710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dcb8098-c3c1-4a4c-ae7f-600dcbfc6baf")
-		(property "Reference" "R76"
+		(property "Reference" "R59"
 			(at 38.1 110.49 90)
 			(effects
 				(font
@@ -2457,6 +2745,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 38.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 38.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 38.1 115.57 0)
 			(effects
 				(font
@@ -2501,7 +2825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "664e1724-93e4-4db0-8413-c46b4fc59e8c")
-		(property "Reference" "CRP0"
+		(property "Reference" "CRP1"
 			(at 54.61 76.2 0)
 			(effects
 				(font
@@ -2555,6 +2879,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55895057-dabd-459c-ac20-0d139e6c31b5")
 		)
@@ -2592,7 +2952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77705ea8-d27c-43f9-87c4-3dd718b15966")
-		(property "Reference" "R4"
+		(property "Reference" "R53"
 			(at 38.1 44.45 90)
 			(effects
 				(font
@@ -2627,6 +2987,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 38.1 49.53 0)
 			(effects
 				(font
@@ -2672,7 +3068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e062892-105b-4057-bce0-9e7dcbad3bfe")
-		(property "Reference" "R2"
+		(property "Reference" "R64"
 			(at 58.42 111.76 90)
 			(effects
 				(font
@@ -2707,6 +3103,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 58.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 58.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 58.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 58.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 58.42 116.84 0)
 			(effects
 				(font
@@ -2752,7 +3184,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "845f0d9e-3470-4fe6-861f-7390a21795ae")
-		(property "Reference" "R5"
+		(property "Reference" "R54"
 			(at 38.1 52.07 90)
 			(effects
 				(font
@@ -2787,6 +3219,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 38.1 57.15 0)
 			(effects
 				(font
@@ -2831,7 +3299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99b8e2f5-fccf-4603-b83f-355a56226111")
-		(property "Reference" "s0"
+		(property "Reference" "s2"
 			(at 43.18 102.87 0)
 			(effects
 				(font
@@ -2877,6 +3345,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc6fde06-d479-4146-8ad8-aba3a03d4cd6")
 		)
@@ -2911,7 +3415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8a34d67-dd1e-46fa-ac86-befe7079e8fe")
-		(property "Reference" "R6"
+		(property "Reference" "R63"
 			(at 58.42 53.34 90)
 			(effects
 				(font
@@ -2946,6 +3450,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 58.42 58.42 0)
 			(effects
 				(font
@@ -2991,7 +3531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b064feb2-3c8a-4b67-a51f-6b8979a291e8")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 58.42 96.52 0)
 			(effects
 				(font
@@ -3026,6 +3566,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 58.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 58.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 58.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 58.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 58.42 105.41 0)
 			(effects
 				(font
@@ -3088,7 +3664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b836fdd2-1ec3-4c91-8a3f-7aeb244838d7")
-		(property "Reference" "s1"
+		(property "Reference" "s3"
 			(at 43.18 44.45 0)
 			(effects
 				(font
@@ -3134,6 +3710,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38786638-1d5f-4f07-b485-793a10a22b58")
 		)
@@ -3168,7 +3780,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ba5eb1cf-6190-4372-8e27-767acd1ae1e9")
-		(property "Reference" "R80"
+		(property "Reference" "R60"
 			(at 38.1 118.11 90)
 			(effects
 				(font
@@ -3203,6 +3815,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 38.1 123.19 0)
 			(effects
 				(font
@@ -3248,7 +3896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d06afe45-c746-4d3a-99be-22477c0532e3")
-		(property "Reference" "R1"
+		(property "Reference" "R58"
 			(at 38.1 102.87 90)
 			(effects
 				(font
@@ -3283,6 +3931,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 38.1 107.95 0)
 			(effects
 				(font
@@ -3328,7 +4012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3036d27-de28-466a-a4ed-b6308159ce0d")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR079"
 			(at 53.34 88.9 0)
 			(effects
 				(font

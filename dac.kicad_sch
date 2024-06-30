@@ -682,7 +682,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "invendelirium_audio:QFN-8p8p-5x5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -763,7 +763,7 @@
 				(pin input line
 					(at -17.78 -6.35 0)
 					(length 2.54)
-					(name "TDM_MODE_1"
+					(name "TDM_MODE_1/scl"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1174,6 +1174,25 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 38.1 270)
+					(length 2.54)
+					(name "VDD18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "LDO18_BYP" passive line)
+				)
 				(pin input line
 					(at -17.78 6.35 0)
 					(length 2.54)
@@ -1193,9 +1212,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 38.1 270)
+					(at -3.81 -38.1 90)
 					(length 2.54)
-					(name "VDD18"
+					(name "pad"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1209,7 +1228,6 @@
 							)
 						)
 					)
-					(alternate "LDO18_BYP" passive line)
 				)
 				(pin input line
 					(at -17.78 20.32 0)
@@ -1304,7 +1322,7 @@
 				(pin input line
 					(at -17.78 -2.54 0)
 					(length 2.54)
-					(name "TDM_MODE_0"
+					(name "TDM_MODE_0/sda"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1515,6 +1533,18 @@
 		)
 	)
 	(junction
+		(at 134.62 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "027a0f86-45b9-4385-8fc1-a78db3274b52")
+	)
+	(junction
+		(at 109.22 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "045f94e5-817b-4048-9b6d-1c6dd2cdcf1e")
+	)
+	(junction
 		(at 99.06 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1573,6 +1603,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6edab713-fd82-4007-aeb6-a4c6a75bb6ff")
+	)
+	(junction
+		(at 119.38 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "713124d7-f914-4fd5-8388-6576789a85fc")
 	)
 	(junction
 		(at 99.06 119.38)
@@ -1662,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 96.52) (xy 120.65 96.52)
+			(xy 118.11 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2052,6 +2088,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6086e5-4a95-47bf-9995-dc82e1289685")
+	)
+	(wire
+		(pts
 			(xy 166.37 68.58) (xy 156.21 68.58)
 		)
 		(stroke
@@ -2072,7 +2118,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 132.08) (xy 137.16 132.08)
+			(xy 130.81 132.08) (xy 134.62 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2238,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 100.33) (xy 106.68 100.33)
+			(xy 99.06 100.33) (xy 101.6 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2412,6 +2458,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 96.52) (xy 120.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a1820d-86ca-4e23-a2a5-c513e8a6483d")
+	)
+	(wire
+		(pts
 			(xy 95.25 92.71) (xy 95.25 95.25)
 		)
 		(stroke
@@ -2522,7 +2578,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 100.33) (xy 120.65 100.33)
+			(xy 106.68 100.33) (xy 109.22 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2639,6 +2695,16 @@
 			(type default)
 		)
 		(uuid "e1a6460a-b824-47fa-ae6c-3a1b2c03408e")
+	)
+	(wire
+		(pts
+			(xy 134.62 132.08) (xy 137.16 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26d6f63-7bce-4acc-864b-496c0571c7ac")
 	)
 	(wire
 		(pts
@@ -2980,7 +3046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a7e928e-fd5b-4e8b-a638-dbdec7087c81")
-		(property "Reference" "R139"
+		(property "Reference" "R143"
 			(at 104.14 106.68 90)
 			(effects
 				(font
@@ -3023,6 +3089,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 104.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db2a3b39-f8b6-4e0a-83bb-b4dd9afb8d8d")
 		)
@@ -3052,7 +3154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e98379c-f591-4721-90ee-95b42064b352")
-		(property "Reference" "R105"
+		(property "Reference" "R156"
 			(at 176.53 107.315 0)
 			(effects
 				(font
@@ -3097,6 +3199,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 173.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 173.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 173.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 173.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e18ff55-f74f-44e0-a2e3-f854e6734428")
 		)
@@ -3126,7 +3264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17f9eeec-f1f8-4aa1-8c54-99702d6b114c")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0109"
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -3196,7 +3334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cd54a29-43f2-44f0-8439-d684e4b7078c")
-		(property "Reference" "C82"
+		(property "Reference" "CU13"
 			(at 104.14 30.48 0)
 			(effects
 				(font
@@ -3250,6 +3388,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 102.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 102.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 102.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 102.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "416dcc8c-cac2-444b-b2a5-af8e91a873a2")
 		)
@@ -3259,11 +3433,11 @@
 		(instances
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd"
-					(reference "C104")
+					(reference "CU13")
 					(unit 1)
 				)
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f"
-					(reference "C82")
+					(reference "CU10")
 					(unit 1)
 				)
 			)
@@ -3279,7 +3453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "278c6fb5-5fa8-4567-bc35-96e3d0abfbcc")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0121"
 			(at 157.48 128.27 0)
 			(effects
 				(font
@@ -3350,7 +3524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c710ddf-0356-4eb0-8af2-d9a72494fee9")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0113"
 			(at 113.03 102.87 0)
 			(effects
 				(font
@@ -3421,7 +3595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30ff1d49-30b5-4e59-a81d-d6e105fb23d9")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0118"
 			(at 135.89 44.45 0)
 			(effects
 				(font
@@ -3492,7 +3666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32b9ba52-83fe-4ec9-a9bb-c82c648b2e5b")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR0187"
 			(at 86.36 87.63 0)
 			(effects
 				(font
@@ -3563,7 +3737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3518fd17-e8e8-454a-a8f3-e669336bce87")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0117"
 			(at 128.27 59.69 0)
 			(effects
 				(font
@@ -3625,6 +3799,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3615d095-d86c-4043-92cd-12bb2b784db6")
+		(property "Reference" "s39"
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "sda"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "invendelirium_general:pad_1.2x1.5"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "084950a4-fcd9-4c30-a029-13f53d2cbbdf")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd"
+					(reference "s40")
+					(unit 1)
+				)
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f"
+					(reference "s39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 110.49 60.96 270)
 		(unit 1)
@@ -3634,7 +3914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "388ffda5-ba6d-445d-920b-2d55081af4f0")
-		(property "Reference" "R130"
+		(property "Reference" "R148"
 			(at 110.49 55.88 90)
 			(effects
 				(font
@@ -3677,6 +3957,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 110.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 110.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 110.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 110.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4214d003-3e0f-4526-a52e-56426fb0685c")
 		)
@@ -3706,7 +4022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "412a7169-0825-488e-8c94-66b56ca251be")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0123"
 			(at 171.45 121.92 0)
 			(effects
 				(font
@@ -3776,7 +4092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42162607-a02c-46bc-9e32-649d2b1c3d68")
-		(property "Reference" "C83"
+		(property "Reference" "C107"
 			(at 138.43 39.37 0)
 			(effects
 				(font
@@ -3830,6 +4146,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 138.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 138.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 138.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 138.43 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e13d2615-1cd0-4839-8931-03c46d4a320f")
 		)
@@ -3859,7 +4211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c51f452-63b8-4b84-ba8e-bf954f58c54d")
-		(property "Reference" "R131"
+		(property "Reference" "R154"
 			(at 115.57 60.96 90)
 			(effects
 				(font
@@ -3902,6 +4254,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21b664c7-db3a-491f-8ad6-fc8d44228a48")
 		)
@@ -3931,7 +4319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "656dadeb-db8c-43fb-a2a0-7fbb13b91023")
-		(property "Reference" "R220"
+		(property "Reference" "R221"
 			(at 88.9 77.4699 0)
 			(effects
 				(font
@@ -3976,6 +4364,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c8c538c-c97e-4b78-aee0-453c64c61697")
 		)
@@ -4005,7 +4429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "670c13fe-e418-41c7-9cf5-894da36cfe59")
-		(property "Reference" "R136"
+		(property "Reference" "R155"
 			(at 115.57 91.44 90)
 			(effects
 				(font
@@ -4048,6 +4472,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9ccffdf-ec52-45cd-b269-1171b1f59115")
 		)
@@ -4076,7 +4536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6779f460-8650-44a6-9690-9ae4ac8fbc52")
-		(property "Reference" "C77"
+		(property "Reference" "C108"
 			(at 148.59 46.99 0)
 			(effects
 				(font
@@ -4130,6 +4590,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b602cdb2-3956-478b-a8f5-9fbe068fd17f")
 		)
@@ -4158,7 +4654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67d9e510-ac1b-427b-b07d-0caaf1eae8f8")
-		(property "Reference" "s23"
+		(property "Reference" "s24"
 			(at 87.63 64.897 0)
 			(effects
 				(font
@@ -4203,6 +4699,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 90.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 90.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 90.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 90.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2785c9e-b2cb-4daf-b5f0-29b9f609e67d")
 		)
@@ -4229,7 +4761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69ca40ca-f1ec-40e8-bf28-c592fea6c8b4")
-		(property "Reference" "C80"
+		(property "Reference" "C110"
 			(at 173.99 111.8489 0)
 			(effects
 				(font
@@ -4247,7 +4779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "invendelirium_general:CP_Radial_D8.0mm_P3.50mm"
 			(at 171.45 113.03 0)
 			(effects
 				(font
@@ -4270,6 +4802,51 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "A759EK477M0JAAE016"
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -4303,7 +4880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7413e3ba-6b36-414a-98de-686361539311")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0122"
 			(at 163.83 124.46 0)
 			(effects
 				(font
@@ -4373,7 +4950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7975953e-15ba-4865-b467-b8a9126ab2a5")
-		(property "Reference" "C79"
+		(property "Reference" "C109"
 			(at 165.1 111.76 0)
 			(effects
 				(font
@@ -4427,6 +5004,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 163.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 163.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 163.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 163.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c0567a7-ba35-4a18-b172-57b57abac490")
 		)
@@ -4455,7 +5068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c4b30d4-9063-443f-903d-7f97711ab7a5")
-		(property "Reference" "C78"
+		(property "Reference" "CU14"
 			(at 129.54 46.99 0)
 			(effects
 				(font
@@ -4509,6 +5122,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "513ada29-2171-4801-833c-e8eab56335ae")
 		)
@@ -4518,11 +5167,11 @@
 		(instances
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd"
-					(reference "C106")
+					(reference "CU14")
 					(unit 1)
 				)
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f"
-					(reference "C78")
+					(reference "CU978")
 					(unit 1)
 				)
 			)
@@ -4538,7 +5187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "808a500b-afe4-42cc-8236-11e3c049c13a")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG010"
 			(at 135.89 50.165 0)
 			(effects
 				(font
@@ -4609,7 +5258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eac5a39-7fcd-44ef-8c98-f27930303448")
-		(property "Reference" "U10"
+		(property "Reference" "U13"
 			(at 116.84 21.59 0)
 			(effects
 				(font
@@ -4653,6 +5302,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c023c9cb-b4db-42dc-b4fc-8e0165b9e4b2")
 		)
@@ -4685,7 +5370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a1acc1f-c880-4265-8c3a-d106662843c7")
-		(property "Reference" "R138"
+		(property "Reference" "R153"
 			(at 114.3 102.87 90)
 			(effects
 				(font
@@ -4728,6 +5413,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8832d78c-c7ad-4a76-8874-8fc597913d7e")
 		)
@@ -4757,7 +5478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a37b7fa4-cc45-4b51-9ea2-ae5d6e776400")
-		(property "Reference" "R135"
+		(property "Reference" "R145"
 			(at 105.41 82.55 90)
 			(effects
 				(font
@@ -4800,6 +5521,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82786761-661a-4b9b-ae5b-eac13d3e5958")
 		)
@@ -4829,7 +5586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7021e46-0c0b-483c-91bf-8a011e0d1cd8")
-		(property "Reference" "R134"
+		(property "Reference" "R149"
 			(at 110.49 78.74 90)
 			(effects
 				(font
@@ -4872,6 +5629,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68cbfee7-8f33-41c6-9d88-9830e0af57e7")
 		)
@@ -4901,7 +5694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af94ff8c-25c1-4b40-951b-cd8d4d8cbc24")
-		(property "Reference" "R132"
+		(property "Reference" "R146"
 			(at 107.95 63.5 90)
 			(effects
 				(font
@@ -4944,6 +5737,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9220c69-3922-460c-8c6f-6cb68fb0a7e0")
 		)
@@ -4973,7 +5802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b032e7d0-180d-4c30-9b30-da7939f25426")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0110"
 			(at 102.87 43.18 0)
 			(effects
 				(font
@@ -5044,7 +5873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1b8622c-06b0-4f9c-83f4-e137ed992685")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0120"
 			(at 147.32 59.69 0)
 			(effects
 				(font
@@ -5115,7 +5944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd7594d3-7c11-4a8b-9ec2-809b9d82560a")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0119"
 			(at 137.16 138.43 0)
 			(effects
 				(font
@@ -5186,7 +6015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bede3d40-91e8-48aa-b52d-aff681a61a5c")
-		(property "Reference" "C81"
+		(property "Reference" "C105"
 			(at 129.54 29.2989 0)
 			(effects
 				(font
@@ -5204,7 +6033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "invendelirium_general:CP_Radial_D8.0mm_P3.50mm"
 			(at 127 30.48 0)
 			(effects
 				(font
@@ -5223,6 +6052,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "A759EK477M0JAAE016"
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 127 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 127 30.48 0)
 			(effects
 				(font
@@ -5260,7 +6134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6838808-6ba6-415a-9ca2-7d23d34233b5")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0114"
 			(at 116.84 41.91 0)
 			(effects
 				(font
@@ -5331,7 +6205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e08da5-87a4-412f-a6c9-d18f8a28b04a")
-		(property "Reference" "R140"
+		(property "Reference" "R150"
 			(at 111.76 110.49 90)
 			(effects
 				(font
@@ -5374,6 +6248,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "666eb064-52b2-4f9b-b58c-4796789441a2")
 		)
@@ -5403,7 +6313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8d6aa10-46ee-4ab1-bf45-fc8df1624824")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0116"
 			(at 127 39.37 0)
 			(effects
 				(font
@@ -5465,6 +6375,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db292e5b-245b-4fc5-8326-ae820ed0cca0")
+		(property "Reference" "s37"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "scl"
+			(at 107.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "invendelirium_general:pad_1.2x1.5"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adf0d052-fc2c-47eb-a4cd-59bfdc3f77b8")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd"
+					(reference "s38")
+					(unit 1)
+				)
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f"
+					(reference "s37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 113.03 73.66 270)
 		(unit 1)
@@ -5474,7 +6490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc1126ee-71fd-4809-ac54-b06dbb735477")
-		(property "Reference" "R133"
+		(property "Reference" "R152"
 			(at 113.03 68.58 90)
 			(effects
 				(font
@@ -5517,6 +6533,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a83192fd-dd50-42bc-80d2-6f016bfcb05a")
 		)
@@ -5538,7 +6590,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 109.22 100.33 90)
+		(at 104.14 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5546,8 +6598,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2f81a66-0a9d-4865-9aec-f8792f9f5ba3")
-		(property "Reference" "R137"
-			(at 109.22 95.25 90)
+		(property "Reference" "R147"
+			(at 104.14 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,7 +6607,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 109.22 97.79 90)
+			(at 104.14 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +6615,7 @@
 			)
 		)
 		(property "Footprint" "invendelirium_audio:R_0603"
-			(at 109.22 100.33 0)
+			(at 104.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +6624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 100.33 0)
+			(at 104.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +6633,43 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 100.33 0)
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 104.14 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +6706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e50508f8-b043-4fb8-ba28-04d59e77a7ba")
-		(property "Reference" "U9"
+		(property "Reference" "U14"
 			(at 146.7359 132.08 0)
 			(effects
 				(font
@@ -5636,7 +6724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "invendelirium_audio:QFN-8p8p-5x5mm"
 			(at 138.43 93.98 0)
 			(effects
 				(font
@@ -5655,7 +6743,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4ch DACv 115db"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 138.43 93.98 0)
 			(effects
 				(font
@@ -5760,6 +6884,9 @@
 		(pin "9"
 			(uuid "6d6fb91a-6ddc-4afc-b3e7-325edcd83796")
 		)
+		(pin "31"
+			(uuid "d33bb226-5cdd-4635-b1fa-f4f457486ff9")
+		)
 		(instances
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd"
@@ -5783,7 +6910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb0977f1-aca5-4bfb-a895-e39ceb5608ca")
-		(property "Reference" "R142"
+		(property "Reference" "R151"
 			(at 111.76 118.11 90)
 			(effects
 				(font
@@ -5826,6 +6953,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cefd38f-5d0f-4ead-b190-18be2615608e")
 		)
@@ -5855,7 +7018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9cfebe1-f65a-42be-b335-05929405e14f")
-		(property "Reference" "R141"
+		(property "Reference" "R144"
 			(at 104.14 114.3 90)
 			(effects
 				(font
@@ -5890,6 +7053,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 104.14 119.38 0)
 			(effects
 				(font
@@ -6030,10 +7229,10 @@
 		(instances
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f"
-					(page "11")
+					(page "9")
 				)
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd"
-					(page "14")
+					(page "12")
 				)
 			)
 		)
@@ -6151,10 +7350,10 @@
 		(instances
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9338c448-a5fc-4246-a946-e7fc08f9b36f"
-					(page "12")
+					(page "10")
 				)
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/7069641c-0ed4-4995-a63e-1f44999c4edd"
-					(page "15")
+					(page "13")
 				)
 			)
 		)
