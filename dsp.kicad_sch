@@ -7602,7 +7602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b4fdff6-fb2b-4dbc-90a2-1414dbb9f19f")
-		(property "Reference" "U16"
+		(property "Reference" "U15"
 			(at 205.74 57.785 0)
 			(effects
 				(font
@@ -7710,7 +7710,7 @@
 		(instances
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9f0654db-0c52-4f70-8768-bb44a6ed6168"
-					(reference "U16")
+					(reference "U15")
 					(unit 3)
 				)
 			)
