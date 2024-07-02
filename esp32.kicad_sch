@@ -5874,7 +5874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
+		(property "Footprint" "invendelirium_audio:ESP32-WROOM-32D"
 			(at 177.8 124.46 0)
 			(effects
 				(font

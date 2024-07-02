@@ -4,5 +4,8 @@
 * add some test pads
 
 last steps:
+* check there are no through-hole connections to ground plane
 * some pads need solid connections
 * check pvdd vias
+* remove all silkscreen text
+* .. but make sure pads have labels
