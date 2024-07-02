@@ -3807,7 +3807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3615d095-d86c-4043-92cd-12bb2b784db6")
-		(property "Reference" "s39"
+		(property "Reference" "s40"
 			(at 118.11 88.9 0)
 			(effects
 				(font
@@ -6383,7 +6383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db292e5b-245b-4fc5-8326-ae820ed0cca0")
-		(property "Reference" "s37"
+		(property "Reference" "s38"
 			(at 107.95 92.71 0)
 			(effects
 				(font

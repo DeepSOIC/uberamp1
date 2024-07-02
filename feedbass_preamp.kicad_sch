@@ -2053,6 +2053,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "FCA1206C334M-H2"
+			(at 153.67 54.61 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75bef273-6e23-4f49-bd07-ce6acb5fa405")
 		)
