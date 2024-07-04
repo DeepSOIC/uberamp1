@@ -3092,10 +3092,16 @@
 		(uuid "071fadef-70c8-4135-a280-943e97c5005f")
 	)
 	(junction
-		(at 143.51 46.99)
+		(at 146.05 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08e80d9c-02e6-48b2-a9e2-d4ca22111395")
+	)
+	(junction
+		(at 139.7 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12c5ed48-4ce8-483b-a69b-cd8220bbb3bc")
 	)
 	(junction
 		(at 140.97 21.59)
@@ -3350,6 +3356,12 @@
 		(uuid "e51c6697-b83b-4461-9992-43821568021d")
 	)
 	(junction
+		(at 110.49 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e690e235-8ded-4ce9-97ef-4ad0d2e7c799")
+	)
+	(junction
 		(at 52.07 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3414,6 +3426,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fea052b4-dc8e-4a21-8959-e789676cd416")
+	)
+	(junction
+		(at 146.05 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "febe5cbc-e797-4ce4-b50f-423d00ee164d")
 	)
 	(junction
 		(at 151.13 41.91)
@@ -3895,6 +3913,16 @@
 		)
 		(uuid "1ce75d2f-5b2d-4423-aa56-252b4ef9af6b")
 	)
+	(wire
+		(pts
+			(xy 139.7 46.99) (xy 135.89 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d95b6b1-1c2e-4146-aaad-52aeefb87477")
+	)
 	(bus
 		(pts
 			(xy 171.45 109.22) (xy 171.45 110.49)
@@ -4214,6 +4242,16 @@
 			(type default)
 		)
 		(uuid "45443261-663a-4164-943c-c20268a54ecc")
+	)
+	(wire
+		(pts
+			(xy 139.7 54.61) (xy 146.05 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461a66d5-8d71-4b04-8286-d681bf9c13e9")
 	)
 	(bus
 		(pts
@@ -4564,6 +4602,16 @@
 			(type default)
 		)
 		(uuid "6225c63a-e651-4494-a355-5f7e43791d8f")
+	)
+	(wire
+		(pts
+			(xy 110.49 40.64) (xy 116.84 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629d47d8-40e9-4e0e-a236-f9261c4a3875")
 	)
 	(wire
 		(pts
@@ -5237,7 +5285,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 46.99) (xy 143.51 46.99)
+			(xy 156.21 46.99) (xy 146.05 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5277,7 +5325,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 40.64) (xy 116.84 40.64)
+			(xy 109.22 40.64) (xy 110.49 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5757,7 +5805,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 46.99) (xy 135.89 46.99)
+			(xy 146.05 46.99) (xy 139.7 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5925,6 +5973,16 @@
 		)
 		(uuid "ff65b6c9-b5f5-4135-b5ed-bd0fb4f24c5a")
 	)
+	(text "because layout was easier"
+		(exclude_from_sim no)
+		(at 61.468 89.662 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "c9b89a8e-678a-4e56-9f43-66b9fd72962c")
+	)
 	(label "sd1in"
 		(at 154.94 86.36 0)
 		(fields_autoplaced yes)
@@ -5980,7 +6038,7 @@
 		)
 		(uuid "1c52347b-d472-47f1-be7d-bdb8ef38d827")
 	)
-	(label "+3v3_d"
+	(label "+3v3_a"
 		(at 50.8 90.17 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6648,7 +6706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "invendelirium_general:SOT-223-3_TabPin2"
 			(at 102.235 25.4 0)
 			(effects
 				(font
@@ -7155,7 +7213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "invendelirium_general:SOT-223-3_TabPin2"
 			(at 102.235 44.45 0)
 			(effects
 				(font
@@ -8368,7 +8426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Package_SOT:SOT23-3_PO123"
+		(property "Footprint" "invendelirium_general:SOT23-3_PO123"
 			(at 161.29 44.45 0)
 			(effects
 				(font
@@ -9352,7 +9410,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 54.61 0)
+		(at 146.05 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9361,7 +9419,7 @@
 		(fields_autoplaced yes)
 		(uuid "688ecaa9-714b-478f-9d7a-b6186038fed9")
 		(property "Reference" "#PWR0147"
-			(at 143.51 60.96 0)
+			(at 146.05 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +9428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 59.69 0)
+			(at 146.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,7 +9437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 54.61 0)
+			(at 146.05 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9388,7 +9446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 54.61 0)
+			(at 146.05 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9397,7 +9455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 54.61 0)
+			(at 146.05 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,6 +9815,120 @@
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9f0654db-0c52-4f70-8768-bb44a6ed6168"
 					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ad243ac-abff-412b-9e72-77b4311efbc7")
+		(property "Reference" "C82"
+			(at 140.97 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 140.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "invendelirium_audio:C_0603"
+			(at 140.6652 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34a30feb-81b8-41a0-8cdf-489b5d83edd2")
+		)
+		(pin "2"
+			(uuid "bddb6369-7143-4ba7-a424-92492624cab6")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9f0654db-0c52-4f70-8768-bb44a6ed6168"
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -11199,6 +11371,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 110.49 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ea7039d-9370-4379-9b0f-0842a42cd60d")
+		(property "Reference" "C78"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "invendelirium_audio:C_0603"
+			(at 111.4552 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f88ee45-21ab-4284-ab0d-7a67c99e5c1a")
+		)
+		(pin "2"
+			(uuid "f9aadecd-043a-4b00-9321-72d1b3c3efce")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9f0654db-0c52-4f70-8768-bb44a6ed6168"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 156.21 86.36 270)
 		(unit 1)
@@ -12623,6 +12909,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d000a1e0-1024-40e8-b9f6-759d669ebd76")
+		(property "Reference" "#PWR0198"
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbfb1b72-53b8-4128-8a46-a15d1245699e")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9f0654db-0c52-4f70-8768-bb44a6ed6168"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 177.8 96.52 0)
 		(unit 1)
@@ -13539,7 +13892,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 143.51 50.8 0)
+		(at 146.05 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13547,7 +13900,7 @@
 		(dnp no)
 		(uuid "df3da302-fd16-4c30-8777-62a964bb0fe4")
 		(property "Reference" "C133"
-			(at 144.78 48.26 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13556,7 +13909,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 144.78 53.34 0)
+			(at 147.32 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13565,7 +13918,7 @@
 			)
 		)
 		(property "Footprint" "invendelirium_audio:C_0603"
-			(at 144.4752 54.61 0)
+			(at 147.0152 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13574,7 +13927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 50.8 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13583,7 +13936,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 50.8 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13592,7 +13945,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 143.51 50.8 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13601,7 +13954,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 143.51 50.8 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13610,7 +13963,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 143.51 50.8 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13619,7 +13972,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 143.51 50.8 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13628,7 +13981,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 143.51 50.8 0)
+			(at 146.05 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
