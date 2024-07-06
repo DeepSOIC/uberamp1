@@ -3569,7 +3569,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "invendelirium_general:D_0805"
 			(at 50.8 111.76 90)
 			(effects
 				(font

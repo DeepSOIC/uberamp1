@@ -4007,7 +4007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "invendelirium_general:D_SOD-323"
 			(at 66.04 67.31 0)
 			(effects
 				(font

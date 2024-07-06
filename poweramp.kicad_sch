@@ -7057,7 +7057,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "invendelirium_general:D_0805"
 			(at 241.3 96.52 0)
 			(effects
 				(font
@@ -8483,7 +8483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "invendelirium_general:D_0805"
 			(at 233.68 114.3 0)
 			(effects
 				(font
@@ -10145,7 +10145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "invendelirium_general:D_0805"
 			(at 241.3 127 0)
 			(effects
 				(font
@@ -10781,7 +10781,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "invendelirium_general:D_0805"
 			(at 87.63 135.89 0)
 			(effects
 				(font
@@ -12114,7 +12114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "invendelirium_general:D_0805"
 			(at 233.68 96.52 0)
 			(effects
 				(font
@@ -12588,7 +12588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "invendelirium_general:D_0805"
 			(at 233.68 127 0)
 			(effects
 				(font
@@ -13364,7 +13364,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "invendelirium_general:D_0805"
 			(at 63.5 130.81 0)
 			(effects
 				(font
@@ -14089,7 +14089,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "invendelirium_general:D_0805"
 			(at 241.3 114.3 0)
 			(effects
 				(font
@@ -17196,7 +17196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "invendelirium_general:D_0805"
 			(at 241.3 80.01 0)
 			(effects
 				(font
@@ -17508,7 +17508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "invendelirium_general:D_0805"
 			(at 233.68 80.01 0)
 			(effects
 				(font
