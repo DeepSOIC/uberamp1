@@ -5199,7 +5199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "invendelirium_general:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 24.13 30.48 0)
 			(effects
 				(font

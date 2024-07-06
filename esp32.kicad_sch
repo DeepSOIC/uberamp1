@@ -4911,7 +4911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Package_SOT:SOT23-3_PO123"
+		(property "Footprint" "invendelirium_general:SOT23-3_PO123"
 			(at 82.55 101.6 0)
 			(effects
 				(font
@@ -6100,7 +6100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Package_SOT:SOT23-3_PO123"
+		(property "Footprint" "invendelirium_general:SOT23-3_PO123"
 			(at 113.03 101.6 0)
 			(effects
 				(font
