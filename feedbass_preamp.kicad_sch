@@ -2904,6 +2904,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "OPA1642AIDGKR"
+			(at 181.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b3cd9e2-846b-4a4c-82a0-e35a33254c04")
 		)
@@ -3209,6 +3218,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "OPA1642AIDGKR"
+			(at 133.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "884394a5-a1fc-49d7-9f58-21b24b60b213")
 		)
@@ -3329,6 +3347,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "OPA1642AIDGKR"
 			(at 137.16 118.11 0)
 			(effects
 				(font
@@ -3841,6 +3868,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 119.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "PV37X102C01B00"
 			(at 119.38 57.15 0)
 			(effects
 				(font

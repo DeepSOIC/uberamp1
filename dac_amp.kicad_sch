@@ -1891,6 +1891,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "VJ0603A471GXXCW1BC"
+			(at 67.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85abf64a-b11b-400c-aebe-dece34c84fb2")
 		)
@@ -2007,6 +2016,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRD07150RL"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58075a92-e3bd-4c5b-9522-85ce868ae6d8")
 		)
@@ -2115,6 +2133,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 30.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRE074K32L"
 			(at 30.48 35.56 0)
 			(effects
 				(font
@@ -2249,6 +2276,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "VJ0603A471GXXCW1BC"
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74c11073-2304-4ce9-a95f-99c9b14d169e")
 		)
@@ -2375,6 +2411,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "GCM1885C1H392GA16D"
+			(at 41.91 88.9 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cff58c35-5759-4fb7-80c2-78f9013ca629")
 		)
@@ -2483,6 +2528,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRD07150RL"
 			(at 53.34 83.82 0)
 			(effects
 				(font
@@ -2733,6 +2787,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRD07150RL"
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04f316dd-fb1d-404b-a6ef-8d494027e4ff")
 		)
@@ -2851,6 +2914,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 67.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "VJ0603A471GXXCW1BC"
 			(at 67.31 50.8 0)
 			(effects
 				(font
@@ -2985,6 +3057,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "VJ0603A471GXXCW1BC"
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee2c3bf1-f9b9-465d-ad13-340e872e4a33")
 		)
@@ -3093,6 +3174,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 60.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRE076K8L"
 			(at 60.96 58.42 0)
 			(effects
 				(font
@@ -3360,6 +3450,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRE076K8L"
+			(at 60.96 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e6a8802-b77d-4154-8792-249a3646ac77")
 		)
@@ -3468,6 +3567,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 30.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRE074K32L"
 			(at 30.48 83.82 0)
 			(effects
 				(font
@@ -3796,6 +3904,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRE074K32L"
+			(at 30.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94cffedd-ec4c-496c-9732-622998b78a50")
 		)
@@ -3904,6 +4021,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 30.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRE074K32L"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -4028,6 +4154,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRE076K8L"
+			(at 60.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e66506d-f296-4f7f-9e7f-844b29197346")
 		)
@@ -4136,6 +4271,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 53.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRD07150RL"
 			(at 53.34 92.71 0)
 			(effects
 				(font
@@ -4405,6 +4549,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRE076K8L"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7d543ff-71cc-488b-bd04-633b86795500")
 		)
@@ -4605,6 +4758,15 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GCM1885C1H392GA16D"
+			(at 41.91 40.64 0)
+			(effects
+				(font
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)

@@ -1754,6 +1754,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRE076K8L"
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1307da8b-acc5-4620-ad95-fce684ca096f")
 		)
@@ -2528,6 +2537,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRE076K8L"
 			(at 229.87 80.01 0)
 			(effects
 				(font

@@ -3803,7 +3803,7 @@
 		(at 119.38 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3615d095-d86c-4043-92cd-12bb2b784db6")
@@ -4650,7 +4650,7 @@
 		(at 90.17 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "67d9e510-ac1b-427b-b07d-0caaf1eae8f8")
@@ -5330,6 +5330,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "ua78l05acpke6"
 			(at 116.84 27.94 0)
 			(effects
 				(font
@@ -6379,7 +6388,7 @@
 		(at 109.22 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "db292e5b-245b-4fc5-8326-ae820ed0cca0")
@@ -6780,6 +6789,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "AK4454VN"
 			(at 138.43 93.98 0)
 			(effects
 				(font

@@ -7120,6 +7120,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RBR1VWM60ATR "
+			(at 241.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ea0128f-8fd3-4ae2-a919-4d34e224e55c")
 		)
@@ -7562,7 +7571,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 78.74 106.68 0)
 			(effects
 				(font
@@ -8209,6 +8218,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "CB052D0105KBC"
+			(at 208.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ecb87b8-c649-4cc8-b9fe-b52f39aa6256")
 		)
@@ -8538,6 +8556,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 233.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RBR1VWM60ATR "
 			(at 233.68 114.3 0)
 			(effects
 				(font
@@ -8893,7 +8920,7 @@
 		(at 41.91 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "48b93310-6a45-499a-85eb-2cffa1c5bc78")
@@ -9819,7 +9846,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "52eaa000-74f2-40bb-b63b-d109e42cb6df")
@@ -10200,6 +10227,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RBR1VWM60ATR "
 			(at 241.3 127 0)
 			(effects
 				(font
@@ -10618,6 +10654,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "CB052D0105KBC"
+			(at 208.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2beb0cc3-9703-4045-8a8c-ee85b8e9157a")
 		)
@@ -10726,6 +10771,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 208.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CB052D0105KBC"
 			(at 208.28 80.01 0)
 			(effects
 				(font
@@ -10868,7 +10922,7 @@
 		(at 68.58 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11159,7 +11213,7 @@
 		(at 250.19 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11791,7 +11845,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6965f239-aae7-4e8a-955d-6ac24e141b27")
@@ -12177,6 +12231,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RBR1VWM60ATR "
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "803340d4-59a4-4411-aa38-cf18d9b0b683")
 		)
@@ -12289,6 +12352,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 111.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "TPA3255DDVR"
 			(at 111.76 125.73 0)
 			(effects
 				(font
@@ -12643,6 +12715,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 233.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RBR1VWM60ATR "
 			(at 233.68 127 0)
 			(effects
 				(font
@@ -13068,6 +13149,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "SPM12565VT-100M-D"
+			(at 200.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e46ff69-c91f-4744-8f65-56bca9ed5d05")
 		)
@@ -13163,7 +13253,7 @@
 		(at 251.46 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14152,6 +14242,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RBR1VWM60ATR "
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9b3eacb-a5a5-4032-a839-214a39971aab")
 		)
@@ -14487,7 +14586,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10nF 63V"
 			(at 219.71 128.905 0)
 			(effects
 				(font
@@ -14568,6 +14667,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "C0603X103K2RECTU"
+			(at 215.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0bedd249-ba33-443d-958e-d95ff0c134ba")
 		)
@@ -14592,7 +14700,7 @@
 		(at 251.46 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14713,7 +14821,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10nF 63V"
 			(at 219.71 98.425 0)
 			(effects
 				(font
@@ -14786,6 +14894,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 215.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C0603X103K2RECTU"
 			(at 215.9 96.52 0)
 			(effects
 				(font
@@ -15459,6 +15576,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "SPM12565VT-100M-D"
+			(at 200.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c3315a8-e44b-4ebc-b97d-1f620f7e70f2")
 		)
@@ -15483,7 +15609,7 @@
 		(at 250.19 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16504,7 +16630,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10nF 63V"
 			(at 219.71 81.915 0)
 			(effects
 				(font
@@ -16577,6 +16703,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C0603X103K2RECTU"
 			(at 215.9 80.01 0)
 			(effects
 				(font
@@ -17259,6 +17394,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RBR1VWM60ATR "
+			(at 241.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e72169b7-fd45-46a4-b697-49d61d142236")
 		)
@@ -17379,6 +17523,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 118.11 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "TC33X-2-103E"
 			(at 118.11 180.34 0)
 			(effects
 				(font
@@ -17571,6 +17724,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RBR1VWM60ATR "
+			(at 233.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a92fd7a-051f-4aed-b0a6-03ed29ed8b89")
 		)
@@ -17679,6 +17841,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "SPM12565VT-100M-D"
+			(at 200.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6e46ac6-9661-43e8-8c13-0230a5bce511")
 		)
@@ -17779,6 +17950,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 200.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "SPM12565VT-100M-D"
 			(at 200.66 110.49 0)
 			(effects
 				(font
@@ -18084,6 +18264,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "CB052D0105KBC"
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a4b5e5d-9e1e-4afa-b8e7-d00dcea5f359")
 		)
@@ -18312,7 +18501,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10nF 63V"
 			(at 219.71 116.205 0)
 			(effects
 				(font
@@ -18385,6 +18574,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "C0603X103K2RECTU"
 			(at 215.9 114.3 0)
 			(effects
 				(font

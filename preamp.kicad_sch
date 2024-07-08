@@ -1736,6 +1736,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "NE5532DR"
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "520ed397-b438-4b71-8aad-0480d4cebe0d")
 		)
@@ -1870,6 +1879,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRD073K6L"
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "71f29759-9f1d-4354-81ab-5d5230fa3605")
 		)
@@ -1978,6 +1996,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRD073K6L"
 			(at 38.1 72.39 0)
 			(effects
 				(font
@@ -2307,6 +2334,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRD073K6L"
+			(at 38.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10e06cec-3fc5-4d44-803e-3b38108d8d4d")
 		)
@@ -2415,6 +2451,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "NE5532DR"
 			(at 58.42 46.99 0)
 			(effects
 				(font
@@ -2557,6 +2602,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRD073K6L"
+			(at 38.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d12bb98-5f9b-4ffa-899a-ff3b8f14f413")
 		)
@@ -2673,6 +2727,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRD073K6L"
+			(at 38.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6bfa38d5-01e8-4c1d-ad32-6cc9c0944f9d")
 		)
@@ -2781,6 +2844,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 38.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRD073K6L"
 			(at 38.1 115.57 0)
 			(effects
 				(font
@@ -2960,7 +3032,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "3.6k"
 			(at 38.1 46.99 90)
 			(effects
 				(font
@@ -3023,6 +3095,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRD073K6L"
 			(at 38.1 49.53 0)
 			(effects
 				(font
@@ -3263,6 +3344,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRD073K6L"
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7595abc7-3f1c-4090-a30b-0385c847e217")
 		)
@@ -3295,7 +3385,7 @@
 		(at 44.45 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "99b8e2f5-fccf-4603-b83f-355a56226111")
@@ -3610,6 +3700,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "NE5532DR"
+			(at 58.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3e34280-8a83-444b-99d5-d729d9a290c1")
 		)
@@ -3660,7 +3759,7 @@
 		(at 44.45 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b836fdd2-1ec3-4c91-8a3f-7aeb244838d7")
@@ -3859,6 +3958,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRD073K6L"
+			(at 38.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aba762f5-9733-4f13-b163-3b617b91a48a")
 		)
@@ -3904,7 +4012,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "3.6k"
 			(at 38.1 105.41 90)
 			(effects
 				(font
@@ -3967,6 +4075,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRD073K6L"
 			(at 38.1 107.95 0)
 			(effects
 				(font
