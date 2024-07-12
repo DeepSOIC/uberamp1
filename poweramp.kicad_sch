@@ -9859,7 +9859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SolderJumper_3_Bridged12"
+		(property "Value" "M2"
 			(at 88.9 78.105 90)
 			(effects
 				(font
@@ -11858,7 +11858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SolderJumper_3_Bridged12"
+		(property "Value" "M1"
 			(at 81.28 80.645 90)
 			(effects
 				(font
