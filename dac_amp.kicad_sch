@@ -3236,7 +3236,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "NE5532"
 			(at 68.58 33.02 0)
 			(effects
 				(font
@@ -3271,7 +3271,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "NE5532DRG4"
+		(property "PN" "NE5532DR"
 			(at 68.58 40.64 0)
 			(effects
 				(font
@@ -4334,7 +4334,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "NE5532"
 			(at 60.96 135.8899 0)
 			(effects
 				(font
@@ -4370,7 +4370,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "NE5532DRG4"
+		(property "PN" "NE5532DR"
 			(at 62.23 134.62 0)
 			(effects
 				(font
@@ -4816,7 +4816,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "NE5532"
 			(at 68.58 81.28 0)
 			(effects
 				(font
@@ -4851,7 +4851,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "NE5532DRG4"
+		(property "PN" "NE5532DR"
 			(at 68.58 88.9 0)
 			(effects
 				(font

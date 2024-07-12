@@ -8118,7 +8118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "OPA2322"
 			(at 205.74 60.325 0)
 			(effects
 				(font
@@ -8992,7 +8992,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "OPA2322"
 			(at 90.17 146.05 0)
 			(effects
 				(font
@@ -9397,7 +9397,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "OPA2322"
 			(at 214.63 71.12 0)
 			(effects
 				(font

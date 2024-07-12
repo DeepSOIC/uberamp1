@@ -6508,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "(undecided)"
 			(at 143.51 176.53 0)
 			(effects
 				(font
@@ -15379,7 +15379,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "(undecided)"
 			(at 152.4 143.51 0)
 			(effects
 				(font
@@ -15730,7 +15730,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "(undecided)"
 			(at 193.04 156.845 0)
 			(effects
 				(font

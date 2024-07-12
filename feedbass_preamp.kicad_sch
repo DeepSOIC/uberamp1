@@ -2833,7 +2833,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "OPA1642"
 			(at 181.61 66.04 0)
 			(effects
 				(font
@@ -2904,7 +2904,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "OPA1642AIDGKR"
+		(property "PN" "OPA1642AIDR"
 			(at 181.61 72.39 0)
 			(effects
 				(font
@@ -3147,7 +3147,7 @@
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "OPA1642"
 			(at 133.35 43.18 0)
 			(effects
 				(font
@@ -3218,7 +3218,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "OPA1642AIDGKR"
+		(property "PN" "OPA1642AIDR"
 			(at 133.35 49.53 0)
 			(effects
 				(font
@@ -3283,7 +3283,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Opamp_Dual"
+		(property "Value" "OPA1642"
 			(at 135.89 120.015 0)
 			(effects
 				(font
@@ -3355,7 +3355,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "OPA1642AIDGKR"
+		(property "PN" "OPA1642AIDR"
 			(at 137.16 118.11 0)
 			(effects
 				(font
@@ -3876,7 +3876,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "PV37X102C01B00"
+		(property "PN" "PV37X202C01B00"
 			(at 119.38 57.15 0)
 			(effects
 				(font
