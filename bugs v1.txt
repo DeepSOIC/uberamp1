@@ -1,0 +1,11 @@
+bugs:
+* all gains wrong because 8.8vpp is unachievable because fakegnd is only 3.82V
+* NE5532 unusable (can't quite swing close enough to ground - need to reach 1.44 V, promised only 2 V). Using OPA1642 for now.
+* r187 wrong value, should be 13k
+* wrong stencil opening under lmr chips
+cosmetic bugs:
+* wrong silkscreen on 0805 caps
+* 5v pad label placement
+* indicate thin-film resistors on the schematic 
+
+potential replacement el-cheapo opamp: MC33078DR2G

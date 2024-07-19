@@ -3677,7 +3677,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "t2k"
 			(at 181.61 80.01 90)
 			(effects
 				(font
@@ -3786,7 +3786,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 116.84 55.245 0)
 			(effects
 				(font
@@ -3925,7 +3925,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "t2k"
 			(at 161.29 72.39 90)
 			(effects
 				(font

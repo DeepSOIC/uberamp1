@@ -6508,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Value" "(undecided)"
+		(property "Value" "OPA1642"
 			(at 143.51 176.53 0)
 			(effects
 				(font
@@ -9450,7 +9450,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "t10k"
 			(at 41.91 168.91 90)
 			(effects
 				(font
@@ -10467,7 +10467,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "t10k"
 			(at 87.63 168.91 90)
 			(effects
 				(font
@@ -11561,7 +11561,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "t10k"
 			(at 87.63 181.61 90)
 			(effects
 				(font
@@ -14287,7 +14287,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "t330"
 			(at 69.85 162.56 90)
 			(effects
 				(font
@@ -15379,7 +15379,7 @@
 				)
 			)
 		)
-		(property "Value" "(undecided)"
+		(property "Value" "OPA1642"
 			(at 152.4 143.51 0)
 			(effects
 				(font
@@ -15730,7 +15730,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "(undecided)"
+		(property "Value" "OPA1642"
 			(at 193.04 156.845 0)
 			(effects
 				(font
@@ -15928,7 +15928,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "t330"
 			(at 69.85 175.26 90)
 			(effects
 				(font
@@ -16153,7 +16153,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "t330"
 			(at 24.13 175.26 90)
 			(effects
 				(font
@@ -16873,7 +16873,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "t10k"
 			(at 41.91 181.61 90)
 			(effects
 				(font
@@ -18981,7 +18981,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "t330"
 			(at 24.13 162.56 90)
 			(effects
 				(font

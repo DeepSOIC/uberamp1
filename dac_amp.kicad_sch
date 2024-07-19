@@ -1630,6 +1630,17 @@
 		)
 		(uuid "fdd09fdf-d4dd-4b9b-a23c-8551a4e8f949")
 	)
+	(text "goal: 4.76vpp\nexpect 4.66"
+		(exclude_from_sim no)
+		(at 91.44 34.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53e9dd73-bb0e-4406-81c1-a17f92ff1ddb")
+	)
 	(text "2.8Vpp each"
 		(exclude_from_sim no)
 		(at 15.24 31.75 0)
@@ -1640,17 +1651,6 @@
 			(justify left bottom)
 		)
 		(uuid "826841d9-b0a7-463b-a780-76bf66913d76")
-	)
-	(text "8.8Vpp"
-		(exclude_from_sim no)
-		(at 88.9 38.1 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "97aaddae-67b1-46ef-b3d2-9fd3ab672e8f")
 	)
 	(label "fakegnd"
 		(at 86.36 127 0)
@@ -2070,7 +2070,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3k"
+		(property "Value" "t4.32k"
 			(at 30.48 33.02 90)
 			(effects
 				(font
@@ -3111,7 +3111,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "t3.6k"
 			(at 60.96 55.88 90)
 			(effects
 				(font
@@ -3236,7 +3236,7 @@
 				)
 			)
 		)
-		(property "Value" "NE5532"
+		(property "Value" "OPA1642"
 			(at 68.58 33.02 0)
 			(effects
 				(font
@@ -3379,7 +3379,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "t3.6k"
 			(at 60.96 104.14 90)
 			(effects
 				(font
@@ -3504,7 +3504,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3k"
+		(property "Value" "t4.32k"
 			(at 30.48 81.28 90)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3k"
+		(property "Value" "t4.32k"
 			(at 30.48 41.91 90)
 			(effects
 				(font
@@ -3958,7 +3958,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3k"
+		(property "Value" "t4.32k"
 			(at 30.48 90.17 90)
 			(effects
 				(font
@@ -4083,7 +4083,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "t3.6k"
 			(at 60.96 17.78 90)
 			(effects
 				(font
@@ -4334,7 +4334,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NE5532"
+		(property "Value" "OPA1642"
 			(at 60.96 135.8899 0)
 			(effects
 				(font
@@ -4478,7 +4478,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8k"
+		(property "Value" "t3.6k"
 			(at 60.96 66.04 90)
 			(effects
 				(font
@@ -4816,7 +4816,7 @@
 				)
 			)
 		)
-		(property "Value" "NE5532"
+		(property "Value" "OPA1642"
 			(at 68.58 81.28 0)
 			(effects
 				(font
