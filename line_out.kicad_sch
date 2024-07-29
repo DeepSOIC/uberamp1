@@ -2812,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Value" "560?"
+		(property "Value" "t560"
 			(at 82.55 95.25 90)
 			(effects
 				(font
@@ -3163,7 +3163,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "t18k"
 			(at 106.68 134.62 90)
 			(effects
 				(font
@@ -3226,6 +3226,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRD0718KL"
 			(at 106.68 137.16 0)
 			(effects
 				(font
@@ -3334,7 +3343,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "t470"
 			(at 36.83 144.78 90)
 			(effects
 				(font
@@ -3907,7 +3916,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "t4.7k"
 			(at 88.9 95.25 90)
 			(effects
 				(font
@@ -4305,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "t470"
 			(at 36.83 105.41 90)
 			(effects
 				(font
@@ -6225,7 +6234,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "t18k"
 			(at 106.68 118.11 90)
 			(effects
 				(font
@@ -6288,6 +6297,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRD0718KL"
 			(at 106.68 120.65 0)
 			(effects
 				(font
@@ -6431,7 +6449,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "t470"
 			(at 36.83 166.37 90)
 			(effects
 				(font
@@ -6535,7 +6553,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "t470"
 			(at 36.83 182.88 90)
 			(effects
 				(font
@@ -6639,7 +6657,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "t18k"
 			(at 106.68 157.48 90)
 			(effects
 				(font
@@ -6710,6 +6728,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" "RT0603DRD0718KL"
+			(at 106.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3d9f317-9845-461b-9790-c62f56302034")
 		)
@@ -6743,7 +6770,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "t4.7k"
 			(at 52.07 105.41 90)
 			(effects
 				(font
@@ -6847,7 +6874,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "t4.7k"
 			(at 88.9 134.62 90)
 			(effects
 				(font
@@ -6951,7 +6978,7 @@
 				)
 			)
 		)
-		(property "Value" "560?"
+		(property "Value" "t560"
 			(at 82.55 134.62 90)
 			(effects
 				(font
@@ -7055,7 +7082,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "t4.7k"
 			(at 52.07 144.78 90)
 			(effects
 				(font
@@ -7272,7 +7299,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "t18k"
 			(at 106.68 95.25 90)
 			(effects
 				(font
@@ -7335,6 +7362,15 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0603DRD0718KL"
 			(at 106.68 97.79 0)
 			(effects
 				(font

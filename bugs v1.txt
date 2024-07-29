@@ -1,11 +1,37 @@
 bugs:
 * all gains wrong because 8.8vpp is unachievable because fakegnd is only 3.82V
 * NE5532 unusable (can't quite swing close enough to ground - need to reach 1.44 V, promised only 2 V). Using OPA1642 for now.
+* with modified gains, the overall gain seems to be excessive. (check again!)
 * r187 wrong value, should be 13k
+* ak4454 NEEDS pg signal, otherwise it fails to start when supply raises slowly
+* middle cap next to adau is very hard to solder
+* caps to the left of dac amp are difficult to solder
+* 10u caps are a bit larger than the footprint
+* wrong footprint ak caps
+* consider using 0402 on my 0603 footprints
+* revise jack footprint:
+  * make pads larger for more robustness
+  * alignment holes are too large
+* feedbass is missing the discharge resistor (but can be soldered instead of the shunt cap)
 * wrong stencil opening under lmr chips
+* 3.3v ldo for digital side is not needed because we have an LMZM for esp32 already
+* 7812 gets quite hot. Replace with a capacitor amplifier?
+
 cosmetic bugs:
 * wrong silkscreen on 0805 caps
+* lmzm pin1 not marked
 * 5v pad label placement
 * indicate thin-film resistors on the schematic 
+* add silkscreen for summation resistors (there is space)
+* add ouput channel numbers silkscreen
+* fix fb0 fb1 confusion
 
 potential replacement el-cheapo opamp: MC33078DR2G
+
+need more parts:
+OPA1642
+MC33078DR2G
+3.9nF NP0
+3.3nF NP0
+ESD5B5V0WT
+jst gh connectors of right orientation BM06B-GHS-TBT

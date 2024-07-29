@@ -7541,7 +7541,7 @@
 				)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "t18k"
 			(at 107.95 71.12 90)
 			(effects
 				(font
