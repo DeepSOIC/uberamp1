@@ -13,9 +13,12 @@ bugs:
   * make pads larger for more robustness
   * alignment holes are too large
 * feedbass is missing the discharge resistor (but can be soldered instead of the shunt cap)
+* feedbass trimpot turn direction is backwards
 * wrong stencil opening under lmr chips
 * 3.3v ldo for digital side is not needed because we have an LMZM for esp32 already
 * 7812 gets quite hot. Replace with a capacitor amplifier?
+* startup of two amps is not synchronized, causing massive excursion if a speaker is connected across the amps
+* need protection on i2c and low voltage supplies OR use pixhawk connector
 
 cosmetic bugs:
 * wrong silkscreen on 0805 caps
@@ -24,7 +27,13 @@ cosmetic bugs:
 * indicate thin-film resistors on the schematic 
 * add silkscreen for summation resistors (there is space)
 * add ouput channel numbers silkscreen
-* fix fb0 fb1 confusion
+* fix fb0 fb1 confusion (HOW CAN IT BE SOOO TOTALLY BROKEN ???)
+
+other todos
+* add holes under tpa chips for checking their temperature with a thermal cam
+* design a heatsink mount
+* add another i2c connector footprint for standalone adau
+
 
 potential replacement el-cheapo opamp: MC33078DR2G
 
