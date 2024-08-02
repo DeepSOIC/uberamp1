@@ -1545,12 +1545,6 @@
 		(uuid "045f94e5-817b-4048-9b6d-1c6dd2cdcf1e")
 	)
 	(junction
-		(at 99.06 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "116963d0-bbdd-4e7c-a53b-e9ca5b248c9c")
-	)
-	(junction
 		(at 128.27 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1875,16 +1869,6 @@
 			(type default)
 		)
 		(uuid "1e894159-c96f-4323-ae38-47d16c9dfe5b")
-	)
-	(wire
-		(pts
-			(xy 99.06 87.63) (xy 99.06 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ea847d2-383f-41de-8faf-064151867879")
 	)
 	(wire
 		(pts
@@ -2478,6 +2462,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 87.63) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20c7f8c-200e-4fcf-b353-2da9efb1c2d7")
+	)
+	(wire
+		(pts
 			(xy 95.25 92.71) (xy 95.25 95.25)
 		)
 		(stroke
@@ -2635,16 +2629,6 @@
 			(type default)
 		)
 		(uuid "d9115418-898e-4bcf-a32f-9e904bc9694c")
-	)
-	(wire
-		(pts
-			(xy 99.06 87.63) (xy 102.87 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dab6af9f-c5aa-41ff-b82a-e7c6e9b827c9")
 	)
 	(wire
 		(pts
@@ -3011,6 +2995,18 @@
 			(justify right)
 		)
 		(uuid "c7dac3a0-c5bc-40c4-96a1-a5efb33c4394")
+	)
+	(hierarchical_label "pg"
+		(shape input)
+		(at 88.9 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "c89a9915-a4c1-4ce9-bb6d-3a0bfbbd4543")
 	)
 	(hierarchical_label "out1"
 		(shape output)
@@ -4959,7 +4955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 165.1 116.84 0)
 			(effects
 				(font

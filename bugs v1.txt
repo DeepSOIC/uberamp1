@@ -1,9 +1,4 @@
 bugs:
-* all gains wrong because 8.8vpp is unachievable because fakegnd is only 3.82V
-* NE5532 unusable (can't quite swing close enough to ground - need to reach 1.44 V, promised only 2 V). Using OPA1642 for now.
-* with modified gains, the overall gain seems to be excessive. (check again!)
-* r187 wrong value, should be 13k
-* ak4454 NEEDS pg signal, otherwise it fails to start when supply raises slowly
 * middle cap next to adau is very hard to solder
 * caps to the left of dac amp are difficult to solder
 * 10u caps are a bit larger than the footprint
@@ -16,7 +11,6 @@ bugs:
 * feedbass trimpot turn direction is backwards
 * wrong stencil opening under lmr chips
 * 3.3v ldo for digital side is not needed because we have an LMZM for esp32 already
-* 7812 gets quite hot. Replace with a capacitor amplifier?
 * startup of two amps is not synchronized, causing massive excursion if a speaker is connected across the amps
 * need protection on i2c and low voltage supplies OR use pixhawk connector
 
@@ -33,6 +27,7 @@ other todos
 * add holes under tpa chips for checking their temperature with a thermal cam
 * design a heatsink mount
 * add another i2c connector footprint for standalone adau
+* add -5V to input addon
 
 
 potential replacement el-cheapo opamp: MC33078DR2G
