@@ -1,6 +1,4 @@
 bugs:
-* middle cap next to adau is very hard to solder
-* caps to the left of dac amp are difficult to solder
 * 10u caps are a bit larger than the footprint
 * wrong footprint ak caps
 * consider using 0402 on my 0603 footprints
@@ -11,31 +9,22 @@ bugs:
 * feedbass trimpot turn direction is backwards
 * wrong stencil opening under lmr chips
 * 3.3v ldo for digital side is not needed because we have an LMZM for esp32 already
-* startup of two amps is not synchronized, causing massive excursion if a speaker is connected across the amps
 * need protection on i2c and low voltage supplies OR use pixhawk connector
 
 cosmetic bugs:
 * wrong silkscreen on 0805 caps
 * lmzm pin1 not marked
 * 5v pad label placement
-* indicate thin-film resistors on the schematic 
 * add silkscreen for summation resistors (there is space)
 * add ouput channel numbers silkscreen
-* fix fb0 fb1 confusion (HOW CAN IT BE SOOO TOTALLY BROKEN ???)
 
 other todos
-* add holes under tpa chips for checking their temperature with a thermal cam
 * design a heatsink mount
 * add another i2c connector footprint for standalone adau
 * add -5V to input addon
 
-
-potential replacement el-cheapo opamp: MC33078DR2G
-
 need more parts:
 OPA1642
-MC33078DR2G
 3.9nF NP0
 3.3nF NP0
 ESD5B5V0WT
-jst gh connectors of right orientation BM06B-GHS-TBT
