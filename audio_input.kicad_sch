@@ -1805,7 +1805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 204.47 79.0448 0)
 			(effects
 				(font
@@ -3379,7 +3379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 204.47 53.6448 0)
 			(effects
 				(font
@@ -3559,7 +3559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal"
+		(property "Footprint" "invendelirium_audio:Jack_3.5mm_PJ320D_Horizontal"
 			(at 158.75 63.5 0)
 			(effects
 				(font

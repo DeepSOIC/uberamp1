@@ -1,27 +1,24 @@
 bugs:
-* 10u caps are a bit larger than the footprint
-* wrong footprint ak caps
 * consider using 0402 on my 0603 footprints
-* revise jack footprint:
-  * make pads larger for more robustness
-  * alignment holes are too large
 * feedbass is missing the discharge resistor (but can be soldered instead of the shunt cap)
 * feedbass trimpot turn direction is backwards
-* wrong stencil opening under lmr chips
-* 3.3v ldo for digital side is not needed because we have an LMZM for esp32 already
 * need protection on i2c and low voltage supplies OR use pixhawk connector
+* serial pinout wrong? - esp expects rts from ftdi, but that is supposed to be wired to "cts" pin on the pixhawk connector 
+* rx tx need resistors
 
 cosmetic bugs:
 * wrong silkscreen on 0805 caps
 * lmzm pin1 not marked
-* 5v pad label placement
 * add silkscreen for summation resistors (there is space)
 * add ouput channel numbers silkscreen
+* output pads on the other side?
 
 other todos
 * design a heatsink mount
 * add another i2c connector footprint for standalone adau
 * add -5V to input addon
+* add some ground pads on top and bottom
+* add fan control circuitry?
 
 need more parts:
 OPA1642

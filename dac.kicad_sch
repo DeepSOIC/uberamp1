@@ -4106,7 +4106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 139.3952 45.72 0)
 			(effects
 				(font
@@ -4550,7 +4550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 148.2852 53.34 0)
 			(effects
 				(font
@@ -4775,7 +4775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "invendelirium_general:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "invendelirium_general:CP_Radial_D6.3mm_P2.50mm"
 			(at 171.45 113.03 0)
 			(effects
 				(font
@@ -4964,7 +4964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 164.7952 118.11 0)
 			(effects
 				(font
@@ -5082,7 +5082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 129.2352 53.34 0)
 			(effects
 				(font
@@ -6038,7 +6038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "invendelirium_general:CP_Radial_D8.0mm_P3.50mm"
+		(property "Footprint" "invendelirium_general:CP_Radial_D6.3mm_P2.50mm"
 			(at 127 30.48 0)
 			(effects
 				(font

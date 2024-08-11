@@ -345,6 +345,126 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -611,12 +731,6 @@
 		(uuid "12ef09de-8bc1-47b4-a405-bbb2ef3ad75b")
 	)
 	(junction
-		(at 152.4 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e570d36-45f4-4934-815a-2da7d9b207f1")
-	)
-	(junction
 		(at 186.69 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -695,6 +809,12 @@
 		(uuid "88699302-54ca-4999-b3ce-f363f2ad0c7a")
 	)
 	(junction
+		(at 152.4 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e84db3d-f02f-4104-be2f-50bbb4823302")
+	)
+	(junction
 		(at 189.23 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -717,12 +837,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8838033-2977-4744-9d71-686943f4eefb")
-	)
-	(junction
-		(at 114.3 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aba2fe6e-ae65-4e1d-bd61-5163fd52e528")
 	)
 	(junction
 		(at 186.69 78.74)
@@ -807,7 +921,7 @@
 		(uuid "a0febd63-50d1-46a7-8869-4d60b0b4d30f")
 	)
 	(no_connect
-		(at 165.1 171.45)
+		(at 157.48 171.45)
 		(uuid "dad3aed4-8b96-4899-b25f-9440ec21b05e")
 	)
 	(no_connect
@@ -936,16 +1050,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 146.05) (xy 252.73 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aac1525-9e78-4069-afd6-67cfcb08d4d3")
-	)
-	(wire
-		(pts
 			(xy 135.89 97.79) (xy 133.35 97.79)
 		)
 		(stroke
@@ -983,16 +1087,6 @@
 			(type default)
 		)
 		(uuid "0e9f8d4e-0b12-4a90-bceb-5f2c0ec48699")
-	)
-	(wire
-		(pts
-			(xy 114.3 78.74) (xy 152.4 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f753314-e579-488d-8067-1861556403e1")
 	)
 	(wire
 		(pts
@@ -1386,6 +1480,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 85.09) (xy 151.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38be4aaf-6c4c-4623-aafb-f411b4b777a3")
+	)
+	(wire
+		(pts
 			(xy 90.17 191.77) (xy 99.06 191.77)
 		)
 		(stroke
@@ -1446,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 182.88) (xy 170.18 181.61)
+			(xy 162.56 182.88) (xy 162.56 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1526,13 +1630,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 78.74) (xy 114.3 90.17)
+			(xy 151.13 83.82) (xy 152.4 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45864e82-00d3-4681-85da-2c3c99dfeffe")
+		(uuid "46136d8f-3d1e-4ee7-83ea-ce1b3e21b01c")
 	)
 	(wire
 		(pts
@@ -1543,26 +1647,6 @@
 			(type default)
 		)
 		(uuid "465113b6-d9b1-4bf0-9214-9e7e5480a82b")
-	)
-	(wire
-		(pts
-			(xy 251.46 92.71) (xy 251.46 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4937259e-89ca-4f49-9ef8-38ef9fec4569")
-	)
-	(wire
-		(pts
-			(xy 151.13 85.09) (xy 151.13 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49c94e41-b8eb-40d8-a9fa-9e44425be23a")
 	)
 	(wire
 		(pts
@@ -1603,16 +1687,6 @@
 			(type default)
 		)
 		(uuid "4cb04fb1-0f19-474e-9ecd-0a50e046eabf")
-	)
-	(wire
-		(pts
-			(xy 251.46 142.24) (xy 251.46 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ce19da1-8186-4325-939e-ee9c44db85b0")
 	)
 	(wire
 		(pts
@@ -1676,7 +1750,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 187.96) (xy 171.45 187.96)
+			(xy 157.48 187.96) (xy 163.83 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1703,16 +1777,6 @@
 			(type default)
 		)
 		(uuid "5be0272c-e20a-4dfe-afc0-a99996035261")
-	)
-	(wire
-		(pts
-			(xy 151.13 110.49) (xy 151.13 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cae5004-db82-411e-aaba-c9d099a4667b")
 	)
 	(wire
 		(pts
@@ -1743,16 +1807,6 @@
 			(type default)
 		)
 		(uuid "5f5b45fd-8baf-4245-ad46-f5ece1097084")
-	)
-	(wire
-		(pts
-			(xy 151.13 82.55) (xy 152.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f76fbad-b1b2-4433-8a8f-d90f296c43c0")
 	)
 	(wire
 		(pts
@@ -1813,6 +1867,16 @@
 			(type default)
 		)
 		(uuid "638efbc1-ad28-4038-b1f2-2e846147c68c")
+	)
+	(wire
+		(pts
+			(xy 151.13 110.49) (xy 151.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6402f865-45ad-445d-9a9d-46ed02275c38")
 	)
 	(wire
 		(pts
@@ -1906,16 +1970,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 68.58) (xy 114.3 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ca69ce1-251a-473a-899d-5b87222e09c8")
-	)
-	(wire
-		(pts
 			(xy 157.48 100.33) (xy 167.64 100.33)
 		)
 		(stroke
@@ -1923,16 +1977,6 @@
 			(type default)
 		)
 		(uuid "6cb6b16b-ad97-4c94-b00c-c0fc8a9ae2db")
-	)
-	(wire
-		(pts
-			(xy 59.69 81.28) (xy 59.69 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ead0802-619a-428d-a4de-3313f2baa929")
 	)
 	(wire
 		(pts
@@ -2006,7 +2050,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 182.88) (xy 170.18 182.88)
+			(xy 157.48 182.88) (xy 162.56 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2026,17 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 109.22) (xy 152.4 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7670248e-40a1-4dac-9fd5-c87de79362d1")
-	)
-	(wire
-		(pts
-			(xy 165.1 175.26) (xy 171.45 175.26)
+			(xy 157.48 175.26) (xy 163.83 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2186,6 +2220,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 107.95) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aff01ea-a039-4e36-b741-eb43f24fa188")
+	)
+	(wire
+		(pts
 			(xy 256.54 95.25) (xy 257.81 95.25)
 		)
 		(stroke
@@ -2293,16 +2337,6 @@
 			(type default)
 		)
 		(uuid "95f1d5d3-f026-43b1-b615-f0b1942650f0")
-	)
-	(wire
-		(pts
-			(xy 152.4 109.22) (xy 152.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99cce39b-4a7e-4411-b517-edcca6915192")
 	)
 	(wire
 		(pts
@@ -2416,16 +2450,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 92.71) (xy 251.46 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ac7a76-ed82-4b43-bbbb-db777a4d9f69")
-	)
-	(wire
-		(pts
 			(xy 212.09 125.73) (xy 214.63 125.73)
 		)
 		(stroke
@@ -2443,16 +2467,6 @@
 			(type default)
 		)
 		(uuid "a7e06037-62a3-48e0-9cc5-c9206fed70c1")
-	)
-	(wire
-		(pts
-			(xy 252.73 146.05) (xy 252.73 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a80156a1-7363-4d09-b5b4-4092cce928ec")
 	)
 	(wire
 		(pts
@@ -2503,6 +2517,16 @@
 			(type default)
 		)
 		(uuid "ac2414fe-0269-4b3b-8588-a846a97e9685")
+	)
+	(wire
+		(pts
+			(xy 151.13 107.95) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac74a1a4-a084-4f00-860f-b58a24093d97")
 	)
 	(wire
 		(pts
@@ -2766,16 +2790,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 82.55) (xy 152.4 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c34e7d06-6765-4d1c-bf0d-40e116d1903d")
-	)
-	(wire
-		(pts
 			(xy 175.26 125.73) (xy 180.34 125.73)
 		)
 		(stroke
@@ -2996,6 +3010,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 185.42) (xy 167.64 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da279535-9994-4395-b491-babf75c3289f")
+	)
+	(wire
+		(pts
 			(xy 226.06 73.66) (xy 234.95 73.66)
 		)
 		(stroke
@@ -3033,6 +3057,16 @@
 			(type default)
 		)
 		(uuid "dbfcea63-31df-455b-8474-5bf8f9df709c")
+	)
+	(wire
+		(pts
+			(xy 167.64 185.42) (xy 167.64 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc17a369-dc56-4135-8a72-33bea2c4baf5")
 	)
 	(wire
 		(pts
@@ -3196,16 +3230,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 68.58) (xy 30.48 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb4e46c9-8730-480a-bdb0-298c04d9f8e3")
-	)
-	(wire
-		(pts
 			(xy 248.92 57.15) (xy 248.92 54.61)
 		)
 		(stroke
@@ -3263,16 +3287,6 @@
 			(type default)
 		)
 		(uuid "ef645722-7b3f-454f-8790-4383ab481510")
-	)
-	(wire
-		(pts
-			(xy 114.3 68.58) (xy 30.48 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef6f782a-e834-4a59-adaa-9c3ec36a89e1")
 	)
 	(wire
 		(pts
@@ -3418,7 +3432,7 @@
 		(uuid "3047d942-c01b-4833-bca3-4eb58b16aa45")
 	)
 	(label "12V"
-		(at 171.45 175.26 180)
+		(at 163.83 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3462,7 +3476,7 @@
 		(uuid "68851730-d9d8-4571-8e2f-f532ae8961e4")
 	)
 	(label "pg"
-		(at 171.45 187.96 180)
+		(at 163.83 187.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3583,6 +3597,72 @@
 		(uuid "fdebf7c1-ccb8-4d65-bab1-ee3f48d23485")
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 152.4 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "236eb8ab-4b21-405f-86fd-ad9165b3ce0b")
+		(property "Reference" "#PWR0205"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2690db25-6966-47c8-92da-27da4e13e73b")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 162.56 96.52 90)
 		(unit 1)
@@ -3607,7 +3687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 166.37 95.5548 0)
 			(effects
 				(font
@@ -3695,6 +3775,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 30.48 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30fd9019-3ff1-46c8-ba92-5149484ccdd4")
+		(property "Reference" "#PWR0185"
+			(at 30.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 30.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97a1ac82-521b-4ff3-a76f-9fa6db3b094d")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 171.45 125.73 90)
 		(unit 1)
@@ -3719,7 +3865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 175.26 124.7648 0)
 			(effects
 				(font
@@ -3831,7 +3977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 166.37 112.0648 0)
 			(effects
 				(font
@@ -4120,7 +4266,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 170.18 181.61 0)
+		(at 162.56 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4129,7 +4275,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c492e1c-1dc2-45d1-8e5b-464903745f42")
 		(property "Reference" "#PWR0143"
-			(at 170.18 185.42 0)
+			(at 162.56 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +4284,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 170.18 177.8 0)
+			(at 162.56 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 181.61 0)
+			(at 162.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 181.61 0)
+			(at 162.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 181.61 0)
+			(at 162.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,6 +4500,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 58.42 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f073ea2-0b2c-4674-8f2b-a672e3ffdbdf")
+		(property "Reference" "#PWR0180"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 58.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5990c9fb-9051-4731-b0c6-fa62245b9f94")
+		)
+		(instances
+			(project ""
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 81.28 189.23 0)
 		(unit 1)
@@ -4445,7 +4657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 166.37 86.6648 0)
 			(effects
 				(font
@@ -4600,6 +4812,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 167.64 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7829f5d7-0d56-4c7a-bb2b-e690e28c4fea")
+		(property "Reference" "#PWR0181"
+			(at 167.64 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 167.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 167.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41025490-09c5-4730-b70d-d176d8a30cd0")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 162.56 121.92 90)
 		(unit 1)
@@ -4624,7 +4902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 166.37 120.9548 0)
 			(effects
 				(font
@@ -4706,72 +4984,6 @@
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12"
 					(reference "C101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 59.69 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c4926c2-28fe-4b3d-b723-0cd927a4957a")
-		(property "Reference" "#PWR0185"
-			(at 59.69 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 59.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a354a26-6575-438d-98a3-1d1052278e5c")
-		)
-		(instances
-			(project "uberamp1"
-				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12"
-					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -4869,7 +5081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 175.26 99.3648 0)
 			(effects
 				(font
@@ -4981,7 +5193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 175.26 90.4748 0)
 			(effects
 				(font
@@ -5093,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 175.26 115.8748 0)
 			(effects
 				(font
@@ -5175,6 +5387,72 @@
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12"
 					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 114.3 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de84e113-ea98-412a-b375-a49ec05b5836")
+		(property "Reference" "#PWR0204"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 114.3 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eb4bd52-3c30-40db-bc91-1dcf52359ccc")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12"
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -5396,7 +5674,7 @@
 		)
 	)
 	(sheet
-		(at 144.78 166.37)
+		(at 137.16 166.37)
 		(size 20.32 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -5408,7 +5686,7 @@
 		)
 		(uuid "4d0cf4b6-29af-402d-96b9-0bcbddb66920")
 		(property "Sheetname" "supplies"
-			(at 144.78 165.6584 0)
+			(at 137.16 165.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5695,7 @@
 			)
 		)
 		(property "Sheetfile" "supplies.kicad_sch"
-			(at 144.78 192.3546 0)
+			(at 137.16 192.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5704,7 @@
 			)
 		)
 		(pin "15V" output
-			(at 165.1 171.45 0)
+			(at 157.48 171.45 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5436,7 +5714,7 @@
 			(uuid "2fc7cee5-c9e7-4d51-8c58-350b27038475")
 		)
 		(pin "12V" output
-			(at 165.1 175.26 0)
+			(at 157.48 175.26 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5446,7 +5724,7 @@
 			(uuid "57d78117-a570-42a8-9c00-de80c4f7dabc")
 		)
 		(pin "5V" output
-			(at 165.1 182.88 0)
+			(at 157.48 182.88 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5456,7 +5734,7 @@
 			(uuid "158a958d-421d-4a08-a9a6-5673945bf6c9")
 		)
 		(pin "pg" output
-			(at 165.1 187.96 0)
+			(at 157.48 187.96 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5464,6 +5742,16 @@
 				(justify right)
 			)
 			(uuid "6bdde354-4831-4d8f-b711-4d1729830db6")
+		)
+		(pin "3V3" output
+			(at 157.48 185.42 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "edb26408-420b-4eb2-a639-7ba3930ae263")
 		)
 		(instances
 			(project "uberamp1"
@@ -5601,16 +5889,6 @@
 				(justify right)
 			)
 			(uuid "b353cb87-7c70-4c90-8885-319bfa645d0a")
-		)
-		(pin "c_start" passive
-			(at 251.46 91.44 270)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-			(uuid "f4c7ed47-10b0-41f7-89d7-e2560fe3babc")
 		)
 		(instances
 			(project "uberamp1"
@@ -6074,16 +6352,6 @@
 			)
 			(uuid "2915fd7a-6200-4a28-8ac8-fd4ef1f5f84c")
 		)
-		(pin "+3v3_d" output
-			(at 114.3 90.17 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-			(uuid "a422ccec-1399-4708-88c7-bdb35b75ad53")
-		)
 		(pin "mclk_in" input
 			(at 91.44 115.57 180)
 			(effects
@@ -6213,6 +6481,16 @@
 				(justify left)
 			)
 			(uuid "3e959821-ff9b-4830-bab6-673fa486537c")
+		)
+		(pin "+3v3_d" input
+			(at 114.3 90.17 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "b7e26cd7-4144-4d0e-b7d5-955fdb28d7f9")
 		)
 		(instances
 			(project "uberamp1"
@@ -6586,15 +6864,15 @@
 			)
 			(uuid "3125b985-41d0-4f9d-acbf-e5e1063262ad")
 		)
-		(pin "5V" input
-			(at 59.69 85.09 90)
+		(pin "3V3" input
+			(at 58.42 85.09 90)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 				(justify right)
 			)
-			(uuid "caa764d6-aa61-4654-9597-399f3a28718a")
+			(uuid "7393b18d-2936-45c8-bae9-5dd4081ec15e")
 		)
 		(instances
 			(project "uberamp1"
@@ -6869,16 +7147,6 @@
 				(justify right)
 			)
 			(uuid "63661096-169e-4e8a-aa20-b7f132deb290")
-		)
-		(pin "c_start" passive
-			(at 251.46 142.24 270)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-			(uuid "e2300e00-ec7d-4e4d-964b-221c649e9110")
 		)
 		(instances
 			(project "uberamp1"

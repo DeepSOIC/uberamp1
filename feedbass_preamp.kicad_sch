@@ -2614,7 +2614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 134.3152 88.9 0)
 			(effects
 				(font
@@ -3428,7 +3428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "invendelirium_audio:C_0603"
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
 			(at 153.3652 123.19 0)
 			(effects
 				(font
