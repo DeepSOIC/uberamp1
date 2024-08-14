@@ -797,6 +797,10 @@
     [
       "f0f90934-0ffc-42c4-856c-3b886cd79d06",
       "poweramp1"
+    ],
+    [
+      "cd4cf2c3-4168-4fa6-9124-fc9379dab1dc",
+      "fan-control"
     ]
   ],
   "text_variables": {}
