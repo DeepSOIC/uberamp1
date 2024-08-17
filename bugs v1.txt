@@ -5,6 +5,8 @@ bugs:
 * need protection on i2c and low voltage supplies OR use pixhawk connector
 * serial pinout wrong? - esp expects rts from ftdi, but that is supposed to be wired to "cts" pin on the pixhawk connector 
 * rx tx need resistors
+* need 1uf cap on esp reset line, otherwise autoreset doesn't work
+* really need an led or two on the esp
 
 cosmetic bugs:
 * wrong silkscreen on 0805 caps
