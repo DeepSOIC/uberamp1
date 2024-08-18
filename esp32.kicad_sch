@@ -1852,12 +1852,6 @@
 		)
 	)
 	(junction
-		(at 83.82 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "111ea5a1-9c2b-4045-b4ca-e1fde24d3f19")
-	)
-	(junction
 		(at 200.66 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1868,6 +1862,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57b81083-3b53-4bd7-a242-88ff686d41c9")
+	)
+	(junction
+		(at 80.01 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8002e59d-a7f5-48f9-9759-ecad9026f7d9")
 	)
 	(junction
 		(at 151.13 36.83)
@@ -1898,6 +1898,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0944838-8d98-489a-b2e5-be9e94941680")
+	)
+	(junction
+		(at 80.01 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6651cd5-28d3-41b4-b2c4-9ed5ccca1c1f")
 	)
 	(junction
 		(at 200.66 95.25)
@@ -1966,7 +1972,7 @@
 		(uuid "4449a62b-ca43-4292-b572-067f7bf87748")
 	)
 	(no_connect
-		(at 36.83 119.38)
+		(at 36.83 121.92)
 		(uuid "5219b12f-6952-45f5-b0b9-12fb7ed34473")
 	)
 	(no_connect
@@ -2053,7 +2059,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 110.49) (xy 80.01 121.92)
+			(xy 80.01 59.69) (xy 86.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08057adf-df50-4dfe-88bb-b22ad0c0955e")
+	)
+	(wire
+		(pts
+			(xy 80.01 110.49) (xy 80.01 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2110,6 +2126,16 @@
 			(type default)
 		)
 		(uuid "2c6cbfa5-c4ad-4c72-9865-d90804393279")
+	)
+	(wire
+		(pts
+			(xy 80.01 87.63) (xy 86.36 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d32b01f-67c3-470f-992c-e7e0acdadb05")
 	)
 	(wire
 		(pts
@@ -2193,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 59.69) (xy 83.82 59.69)
+			(xy 72.39 59.69) (xy 80.01 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2203,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 121.92) (xy 36.83 121.92)
+			(xy 80.01 119.38) (xy 36.83 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2220,6 +2246,16 @@
 			(type default)
 		)
 		(uuid "433257dc-36c5-4b0f-a9fe-5d45317a3594")
+	)
+	(wire
+		(pts
+			(xy 80.01 87.63) (xy 80.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d88b31-a214-4fff-801f-c557fc37dd29")
 	)
 	(wire
 		(pts
@@ -2240,26 +2276,6 @@
 			(type default)
 		)
 		(uuid "4d7e85b0-5b9c-457b-aeab-13fa82ebe8a5")
-	)
-	(wire
-		(pts
-			(xy 80.01 93.98) (xy 83.82 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51bf179b-b3c2-4e35-a8c8-15147c990d41")
-	)
-	(wire
-		(pts
-			(xy 80.01 99.06) (xy 80.01 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5526ad04-5275-492a-aed8-a59c497a7b98")
 	)
 	(wire
 		(pts
@@ -2443,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 59.69) (xy 73.66 59.69)
+			(xy 62.23 59.69) (xy 67.31 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +2499,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 59.69) (xy 83.82 93.98)
+			(xy 80.01 59.69) (xy 80.01 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2540,16 +2556,6 @@
 			(type default)
 		)
 		(uuid "dbeda168-12dd-44b0-aeb8-63d8451bec18")
-	)
-	(wire
-		(pts
-			(xy 83.82 59.69) (xy 86.36 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc032fa2-8e80-4a7e-a218-d33343f69c76")
 	)
 	(wire
 		(pts
@@ -2697,6 +2703,16 @@
 			(justify left bottom)
 		)
 		(uuid "ce1b8377-92fd-4161-987e-754edf747095")
+	)
+	(text "important\nfor autoreset"
+		(exclude_from_sim no)
+		(at 95.25 91.186 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "d6791abf-1d13-44be-bd0e-13edf2fd4212")
 	)
 	(text "rx"
 		(exclude_from_sim no)
@@ -2870,7 +2886,7 @@
 	)
 	(hierarchical_label "pg"
 		(shape input)
-		(at 68.58 59.69 180)
+		(at 62.23 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3064,6 +3080,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 86.36 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2543442f-6c60-47a3-a61d-5ce5d066c302")
+		(property "Reference" "C104"
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "invendelirium_audio:C_0603_larger"
+			(at 87.3252 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7cb0744-94c9-4d71-b7da-f99f94b52222")
+		)
+		(pin "2"
+			(uuid "5635c064-faeb-4cbc-9c68-e413ea3e4ac1")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c7f5e7f4-a933-42eb-8650-67011ef6e24d"
+					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 125.73 0)
 		(unit 1)
@@ -3231,6 +3361,73 @@
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c7f5e7f4-a933-42eb-8650-67011ef6e24d"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bd3c805-c980-4566-b2f0-44e46a076511")
+		(property "Reference" "#PWR0209"
+			(at 86.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7556c02f-38ef-46c0-b5ab-c0467a2b6af8")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/c7f5e7f4-a933-42eb-8650-67011ef6e24d"
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -3656,7 +3853,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 76.2 59.69 90)
+		(at 69.85 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3665,7 +3862,7 @@
 		(fields_autoplaced yes)
 		(uuid "634414f6-bfe3-49e5-abfe-bfb1c8f9b57d")
 		(property "Reference" "R210"
-			(at 76.2 54.61 90)
+			(at 69.85 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3870,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 76.2 57.15 90)
+			(at 69.85 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3878,7 @@
 			)
 		)
 		(property "Footprint" "invendelirium_audio:R_0603"
-			(at 76.2 59.69 0)
+			(at 69.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +3887,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 59.69 0)
+			(at 69.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +3896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 59.69 0)
+			(at 69.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +3905,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 76.2 59.69 0)
+			(at 69.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +3914,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 76.2 59.69 0)
+			(at 69.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3923,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 76.2 59.69 0)
+			(at 69.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3932,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 76.2 59.69 0)
+			(at 69.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
