@@ -1,7 +1,5 @@
 bugs:
 * consider using 0402 on my 0603 footprints
-* feedbass is missing the discharge resistor (but can be soldered instead of the shunt cap)
-* feedbass trimpot turn direction is backwards
 * need protection on i2c and low voltage supplies OR use pixhawk connector
 * serial pinout wrong? - esp expects rts from ftdi, but that is supposed to be wired to "cts" pin on the pixhawk connector 
 * rx tx need resistors
@@ -20,6 +18,8 @@ other todos
 * add -5V to input addon
 * add some ground pads on top and bottom
 * add fan control circuitry?
+* refine 1206 cap footprint
+* add dac output pads
 
 need more parts:
 OPA1642
