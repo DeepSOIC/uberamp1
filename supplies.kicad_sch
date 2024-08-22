@@ -2186,6 +2186,12 @@
 		(uuid "2748e2b4-7fb2-4f09-a7e7-82171324d0c7")
 	)
 	(junction
+		(at 62.23 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cf32747-1d09-4375-8cdc-6c65c279cfd2")
+	)
+	(junction
 		(at 215.9 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2220,12 +2226,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46a8b4ec-1040-477b-a2f6-9fcaeeab6585")
-	)
-	(junction
-		(at 73.66 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46bfc050-ad41-4744-96e1-8f902bce22df")
 	)
 	(junction
 		(at 105.41 71.12)
@@ -2366,6 +2366,12 @@
 		(uuid "dae23bde-163b-4825-b51a-478674c28d17")
 	)
 	(junction
+		(at 148.59 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e541070d-1847-4b20-88d3-73dad01ee7b5")
+	)
+	(junction
 		(at 78.74 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2458,16 +2464,6 @@
 			(type default)
 		)
 		(uuid "1245fe06-245c-414e-bad0-3892b811ee54")
-	)
-	(wire
-		(pts
-			(xy 87.63 168.91) (xy 73.66 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1257c2b2-b151-4232-bb74-ccfff4d94a83")
 	)
 	(wire
 		(pts
@@ -2671,6 +2667,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 142.24) (xy 152.4 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4351d311-2d58-4331-918f-f5e47d212c51")
+	)
+	(wire
+		(pts
 			(xy 168.91 58.42) (xy 171.45 58.42)
 		)
 		(stroke
@@ -2741,7 +2747,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 168.91) (xy 73.66 168.91)
+			(xy 68.58 168.91) (xy 87.63 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2898,16 +2904,6 @@
 			(type default)
 		)
 		(uuid "73a6ed2d-c4a1-4a62-a09a-474553e6db18")
-	)
-	(wire
-		(pts
-			(xy 73.66 168.91) (xy 73.66 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7556c613-3cf4-43d4-b195-b8255fd61bb3")
 	)
 	(wire
 		(pts
@@ -3151,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 55.88) (xy 72.39 55.88)
+			(xy 57.15 55.88) (xy 62.23 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3281,7 +3277,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 142.24) (xy 152.4 142.24)
+			(xy 140.97 142.24) (xy 148.59 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3338,6 +3334,16 @@
 			(type default)
 		)
 		(uuid "e3e00b84-546a-4ce7-8f60-185336f78afa")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 72.39 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76031a0-651f-440d-8275-f0f303518ba8")
 	)
 	(wire
 		(pts
@@ -5905,6 +5911,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6082f3ed-e937-44ad-b453-8e3efe2cb07d")
+		(property "Reference" "#FLG02"
+			(at 62.23 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2b77da4-3d56-433d-8e11-3348de18dcd7")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/4d0cf4b6-29af-402d-96b9-0bcbddb66920"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 109.22 0)
 		(unit 1)
@@ -6033,6 +6105,72 @@
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/4d0cf4b6-29af-402d-96b9-0bcbddb66920"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 148.59 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b0f4afd-cdce-4804-9a8a-2d2fe80617f2")
+		(property "Reference" "#FLG013"
+			(at 148.59 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 148.59 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0641738c-f174-4bf3-a2f5-6cb1d4c12bd0")
+		)
+		(instances
+			(project "uberamp1"
+				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/4d0cf4b6-29af-402d-96b9-0bcbddb66920"
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)
@@ -8930,73 +9068,6 @@
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/4d0cf4b6-29af-402d-96b9-0bcbddb66920"
 					(reference "CU19_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 73.66 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d791ae13-e0bf-4ce5-99cf-b8c174f24875")
-		(property "Reference" "#PWR06"
-			(at 73.66 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2159b6b-cefa-48ef-ac8a-27e99de5cd45")
-		)
-		(instances
-			(project "uberamp1"
-				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/4d0cf4b6-29af-402d-96b9-0bcbddb66920"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)

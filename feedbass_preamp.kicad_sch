@@ -2033,7 +2033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "invendelirium_general:C_1206"
 			(at 154.6352 58.42 0)
 			(effects
 				(font
