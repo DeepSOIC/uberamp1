@@ -1,19 +1,9 @@
 bugs:
 * consider using 0402 on my 0603 footprints
 
-cosmetic bugs:
-* add silkscreen for summation resistors (there is space)
-* add ouput channel numbers silkscreen
-* output pads on the other side?
-
-other todos
-* add -5V to input addon
-* add some ground pads on top and bottom
-* refine 1206 cap footprint
-* add dac output pads
-
 need more parts:
 OPA1642
 3.9nF NP0
 3.3nF NP0
+0805 np0 33nf 10nf
 ESD5B5V0WT

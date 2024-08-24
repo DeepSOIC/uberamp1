@@ -3508,10 +3508,22 @@
 		(uuid "9e9f631a-4c30-4557-9d24-794171862050")
 	)
 	(junction
+		(at 281.94 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a84ea69f-fb6d-4fc6-921f-f68a9d4adfbf")
+	)
+	(junction
 		(at 194.31 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0115b0c-2930-48da-8425-f6ba7225165e")
+	)
+	(junction
+		(at 57.15 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1497e1a-4891-4893-8f65-33b8eae2af7e")
 	)
 	(junction
 		(at 233.68 80.01)
@@ -4069,6 +4081,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 36.83) (xy 59.69 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fde617a-774a-4c0a-9378-2447988dbca3")
+	)
+	(wire
+		(pts
 			(xy 110.49 73.66) (xy 113.03 73.66)
 		)
 		(stroke
@@ -4156,6 +4178,16 @@
 			(type default)
 		)
 		(uuid "14e341dd-650c-4baa-aecd-67bdc23f47d4")
+	)
+	(wire
+		(pts
+			(xy 57.15 36.83) (xy 57.15 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15854869-95ac-4411-a74b-8b992a0b44d6")
 	)
 	(wire
 		(pts
@@ -5399,6 +5431,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 33.02) (xy 284.48 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ddd631-e405-4cdf-a7db-4f5eb963f76e")
+	)
+	(wire
+		(pts
 			(xy 248.92 60.96) (xy 251.46 60.96)
 		)
 		(stroke
@@ -5689,6 +5731,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 33.02) (xy 281.94 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c3f288-9037-4d57-a376-726594e90b63")
+	)
+	(wire
+		(pts
 			(xy 156.21 46.99) (xy 146.05 46.99)
 		)
 		(stroke
@@ -5816,6 +5868,16 @@
 			(type default)
 		)
 		(uuid "ae2a036b-7b27-42f7-a5f6-17a744f70e2a")
+	)
+	(wire
+		(pts
+			(xy 280.67 41.91) (xy 281.94 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee7f35f-6387-44e1-8f2e-868e63be86d9")
 	)
 	(wire
 		(pts
@@ -6126,6 +6188,16 @@
 			(type default)
 		)
 		(uuid "cf6931ad-834e-4893-804e-6f49d0e90bd8")
+	)
+	(wire
+		(pts
+			(xy 55.88 36.83) (xy 57.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb68890-09b1-4a58-958e-028801f1a2e3")
 	)
 	(wire
 		(pts
@@ -6459,6 +6531,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 41.91) (xy 281.94 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc366212-7c23-4923-ab5f-9676e0bdf3d2")
+	)
+	(wire
+		(pts
 			(xy 43.18 68.58) (xy 54.61 68.58)
 		)
 		(stroke
@@ -6606,6 +6688,17 @@
 		)
 		(uuid "3604419e-9b0f-4c46-b3bb-0814cf0800f6")
 	)
+	(label "-5V"
+		(at 55.88 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "38ff10e2-e463-4be1-8484-d82237b96314")
+	)
 	(label "aux1"
 		(at 101.6 165.1 0)
 		(fields_autoplaced yes)
@@ -6726,6 +6819,17 @@
 			(justify left bottom)
 		)
 		(uuid "75b0bd22-7a9a-4b80-9998-515c85ac3d06")
+	)
+	(label "-5V"
+		(at 280.67 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "779bd984-334a-4a48-a4ce-ae3fc67f6755")
 	)
 	(label "aux3"
 		(at 166.37 106.68 0)
@@ -15233,7 +15337,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fd1a3069-ccd0-4a2c-8590-97225b112924")
 		(property "Reference" "J4"
 			(at 19.812 134.112 0)
@@ -15540,6 +15644,16 @@
 			)
 			(uuid "430a14c5-3c7e-4b07-adce-58edc4c3b177")
 		)
+		(pin "-5V" output
+			(at 280.67 41.91 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "c65539f8-8246-4df6-b7b9-22e31612da7f")
+		)
 		(instances
 			(project "uberamp1"
 				(path "/310059c1-d84b-43e2-9c9a-0e426c534a12/9f0654db-0c52-4f70-8768-bb44a6ed6168"
@@ -15617,6 +15731,16 @@
 				(justify right)
 			)
 			(uuid "204e6194-02dd-4563-9afe-53e0cf003070")
+		)
+		(pin "-5V" input
+			(at 57.15 40.64 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "0d47ade5-2436-4b72-b267-1f302b658ffb")
 		)
 		(instances
 			(project "uberamp1"

@@ -11036,7 +11036,7 @@
 		(fields_autoplaced yes)
 		(uuid "620efed8-5281-464a-a9a1-d1236c45c05f")
 		(property "Reference" "TP4"
-			(at 255.27 122.555 90)
+			(at 255.27 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,8 +11044,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "out0"
-			(at 255.27 125.095 90)
+		(property "Value" "out3"
+			(at 255.27 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11053,7 +11053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "invendelirium_audio:output_pad"
 			(at 250.19 128.27 0)
 			(effects
 				(font
@@ -13076,7 +13076,7 @@
 		(fields_autoplaced yes)
 		(uuid "860c41e9-5c96-41bd-ba07-8ec1a13821e7")
 		(property "Reference" "TP2"
-			(at 256.54 92.075 90)
+			(at 256.54 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13084,8 +13084,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "out2"
-			(at 256.54 94.615 90)
+		(property "Value" "out1"
+			(at 256.54 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13093,7 +13093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "invendelirium_audio:output_pad"
 			(at 251.46 97.79 0)
 			(effects
 				(font
@@ -14523,7 +14523,7 @@
 		(fields_autoplaced yes)
 		(uuid "acffac5c-55c1-4238-9fb3-9c777ffc441d")
 		(property "Reference" "TP3"
-			(at 256.54 109.855 90)
+			(at 256.54 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14531,8 +14531,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "out1"
-			(at 256.54 112.395 90)
+		(property "Value" "out2"
+			(at 256.54 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14540,7 +14540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "invendelirium_audio:output_pad"
 			(at 251.46 115.57 0)
 			(effects
 				(font
@@ -15432,7 +15432,7 @@
 		(fields_autoplaced yes)
 		(uuid "c25cef96-ef88-443f-9f72-51c7d660fc46")
 		(property "Reference" "TP1"
-			(at 255.27 75.565 90)
+			(at 255.27 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15440,8 +15440,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "out3"
-			(at 255.27 78.105 90)
+		(property "Value" "out0"
+			(at 255.27 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15449,7 +15449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+		(property "Footprint" "invendelirium_audio:output_pad"
 			(at 250.19 81.28 0)
 			(effects
 				(font
