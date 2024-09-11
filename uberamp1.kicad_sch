@@ -4595,7 +4595,7 @@
 		(at 162.56 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "30faad9f-99a7-40be-876c-a3cddb235012")
@@ -4607,7 +4607,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 166.37 97.79 90)
 			(effects
 				(font
@@ -4773,7 +4773,7 @@
 		(at 171.45 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3366374a-61c1-4e2f-80ac-c78aa7ef0fd9")
@@ -4785,7 +4785,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 175.26 127 90)
 			(effects
 				(font
@@ -4987,7 +4987,7 @@
 		(at 162.56 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "37ecc682-a0cb-4700-a22b-405dd4b9c207")
@@ -4999,7 +4999,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 166.37 114.3 90)
 			(effects
 				(font
@@ -5674,7 +5674,7 @@
 		(at 226.06 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "541db203-857f-43a8-990c-8dc931217752")
@@ -6144,7 +6144,7 @@
 		(at 162.56 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "71a5d781-c9ef-49db-9c45-e7705b9a1d78")
@@ -6156,7 +6156,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 166.37 88.9 90)
 			(effects
 				(font
@@ -6389,7 +6389,7 @@
 		(at 162.56 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "89686e37-19f9-4e7e-9a2a-b75097f92b12")
@@ -6401,7 +6401,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 166.37 123.19 90)
 			(effects
 				(font
@@ -6877,7 +6877,7 @@
 		(at 171.45 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9c70271f-74b9-4270-a260-3b2f9ae9af9b")
@@ -6889,7 +6889,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 175.26 101.6 90)
 			(effects
 				(font
@@ -7195,7 +7195,7 @@
 		(at 171.45 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b308ac65-80bb-43d5-8d9c-4b4069f91ab5")
@@ -7207,7 +7207,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 175.26 92.71 90)
 			(effects
 				(font
@@ -7615,7 +7615,7 @@
 		(at 171.45 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dcb74c3f-9a1f-4dc4-81e2-98071f4c6d21")
@@ -7627,7 +7627,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 175.26 118.11 90)
 			(effects
 				(font

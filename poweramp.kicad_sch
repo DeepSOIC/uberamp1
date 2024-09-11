@@ -11544,7 +11544,7 @@
 		(at 48.26 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11557,7 +11557,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 48.26 173.99 90)
 			(effects
 				(font
@@ -15840,7 +15840,7 @@
 		(at 46.99 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15853,7 +15853,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 46.99 161.29 90)
 			(effects
 				(font
@@ -16561,7 +16561,7 @@
 		(at 93.98 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16574,7 +16574,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 93.98 173.99 90)
 			(effects
 				(font
@@ -18432,7 +18432,7 @@
 		(at 93.98 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -18445,7 +18445,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "inf"
 			(at 93.98 161.29 90)
 			(effects
 				(font
