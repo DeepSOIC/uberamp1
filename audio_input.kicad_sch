@@ -2265,7 +2265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3n3"
+		(property "Value" "3.3n"
 			(at 220.98 62.23 0)
 			(effects
 				(font
@@ -2732,7 +2732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3n3"
+		(property "Value" "3.3n"
 			(at 220.98 87.63 0)
 			(effects
 				(font
