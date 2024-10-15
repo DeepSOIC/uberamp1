@@ -1,9 +1,9 @@
 bugs:
-* consider using 0402 on my 0603 footprints
+* 10uf cap footprint is too wide now, reflow issues
+* resistors next to ak are too dense (shorts during reflow)
+* i2c pull-ups should be smaller (adau datasheet recommends 2.2k)
+
+todos:
+* add a 1uf cap on reset line, and a pull-up (fixes startup of dsp-only version)
 
 need more parts:
-OPA1642
-3.9nF NP0
-3.3nF NP0
-0805 np0 33nf 10nf
-ESD5B5V0WT
