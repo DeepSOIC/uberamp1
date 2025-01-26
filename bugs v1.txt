@@ -1,9 +1,13 @@
 bugs:
 * 10uf cap footprint is too wide now, reflow issues
+* 100n fan bypass footprint too large
+* 2.2uf caps footprint too large
 * resistors next to ak are too dense (shorts during reflow)
 * i2c pull-ups should be smaller (adau datasheet recommends 2.2k)
 
 todos:
 * add a 1uf cap on reset line, and a pull-up (fixes startup of dsp-only version)
+* add silkscreen for inductors (to help align when soldering)
+* oval holes for to220
 
 need more parts:
